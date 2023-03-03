@@ -16,16 +16,25 @@ import type { Question } from '@trivia-api/models'
   return questions;
 };
 
+// store all questions on the current quiz
 const questions = ref<Question[]>([])
+
+// track the user's progress through the quiz
 const currentQuestionIndex = ref<number>(0)
+
+// track the user's current score
 const score = ref<number>(0)
 
+// derive the current question from the current index
 const currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
+
+// derive the remaining number of questions from the current index and the total number of questions
 const remainingNumberOfQuestions = computed(() => questions.value.length - currentQuestionIndex.value)
 
+// order all (correct & incorrect) answers alphabetically so the correct answer is shuffled with the incorrect answers
 const allAnswers = computed<string[]>(() => [currentQuestion.value.correctAnswer, ...currentQuestion.value.incorrectAnswers].sort((a,b) => a < b ? -1 : 1))
 
-// We can derive the state of the quiz from existing state
+// derive the state of the quiz from existing state
 const quizState = computed< "not ready" | "in progress" | "complete">(() => {
   if (questions.value.length === 0) {
     return "not ready";
@@ -36,41 +45,50 @@ const quizState = computed< "not ready" | "in progress" | "complete">(() => {
   }
 })
 
-  /**
-   * Pass this function to <AnswerQuestion/> as a callback, so that whenever
-   * the user guesses an answer we can update the score and show the next question.
-   * @param guess - The user's guess
-   */
-   const handleGuessAnswer = (guess: string) => {
-    if (guess === currentQuestion.value.correctAnswer) {
-      score.value++;
-    }
+/**
+ * Called when the user guesses an answer to update the score and 
+ * show the next question.
+ * @param guess - The user's guess
+ */
+  const handleGuessAnswer = (guess: string) => {
+  if (guess === currentQuestion.value.correctAnswer) {
+    score.value++;
+  }
 
-    currentQuestionIndex.value++;
-  };
+  currentQuestionIndex.value++;
+};
 
-  /**
-   * Reset the state so the user can play another quiz
-   */
-  const resetQuiz = () => {
-    questions.value = [];
-    score.value = 0
-    currentQuestionIndex.value = 0
+/**
+ * Reset the state so the user can play another quiz
+ */
+const resetQuiz = () => {
+  questions.value = [];
+  score.value = 0
+  currentQuestionIndex.value = 0
 
-    getQuestions().then((res) => {
-      questions.value = res;
-    });
-  };
+  getQuestions().then((res) => {
+    questions.value = res;
+  });
+};
 
-  onMounted(() => {
-    getQuestions().then(res => questions.value = res)
-  })
+// When the page loads, fetch questions from the API
+onMounted(() => {
+  getQuestions().then(res => questions.value = res)
+})
 
 </script>
 
 <template>
   <div class="App">
     <header class="App-header">Trivia API Vue Starter</header>
+    <p class="intro-paragraph">
+      This site shows how to use
+      <a href="https://the-trivia-api.com">The Trivia API</a> to build a basic
+      quiz web app using <a href="https://vuejs.org/">Vue</a>. The code is
+      public and can be seen on
+      <a href="https://github.com/the-trivia-api/vue-starter">its Github repo</a
+      >.
+    </p>
     <table class="score-table">
       <tbody>
         <tr>
@@ -120,6 +138,13 @@ const quizState = computed< "not ready" | "in progress" | "complete">(() => {
 body {
   color: rgba(0, 0, 0, 0.8);
   background-color: #fef9f2;
+}
+
+.intro-paragraph {
+  max-width: 70ch;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 2rem;
 }
 
 .App {
