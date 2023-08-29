@@ -27,7 +27,8 @@ const score = ref<number>(0)
 
 // derive the current question from the current index
 const currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
-
+const currentQuestionText= computed(()=>currentQuestion.value.question)
+//const currentQuestionText=computed(()=>currentQuestionTextData.value.)
 // derive the remaining number of questions from the current index and the total number of questions
 const remainingNumberOfQuestions = computed(() => questions.value.length - currentQuestionIndex.value)
 
@@ -80,15 +81,19 @@ onMounted(() => {
 
 <template>
   <div class="App">
-    <header class="App-header">Trivia API Vue Starter</header>
+<div class="navbar">
+<ul ><li><a href="https://lokal.farm/unisciti-a-lokal-farm/">Unisciti a Lokal.farm</a></li>
+<li><a href="https://lokal.farm/frutta-verdura/prodotti-stagione/">Prodotti di Stagione</a></li>
+<li ><a href="https://lokal.farm/blog/">Blog</a></li>
+
+</ul> 
+</div>
+    <header class="App-header">LOKAL FARM TRIVIA</header>
+
     <p class="intro-paragraph">
-      This site shows how to use
-      <a href="https://the-trivia-api.com">The Trivia API</a> to build a basic
-      quiz web app using <a href="https://vuejs.org/">Vue</a>. The code is
-      public and can be seen on
-      <a href="https://github.com/the-trivia-api/vue-starter">its Github repo</a
-      >.
+       Get over 70% of the Fruit Trivia questions right to get a reward!
     </p>
+    <img src="https://lokal.farm/wp-content/uploads/2022/02/cropped-lokal-farm-frutta-e-verdura-a-km-0.png" alt="logo" class="logo">
     <table class="score-table">
       <tbody>
         <tr>
@@ -107,7 +112,9 @@ onMounted(() => {
     </table>
     <div v-if="currentQuestion" class="answer-question">
       <p class="answer-question__question">
-        {{ currentQuestionIndex + 1 }}: {{ currentQuestion.question }}
+        {{ currentQuestionIndex + 1 }}: {{  currentQuestionText }}
+
+        <!--{{ currentQuestionIndex + 1 }}: {{ currentQuestion.question}}-->
       </p>
       <ul class="answer-question__answers">
         <li v-for="answer in allAnswers" :key="answer">
@@ -115,31 +122,50 @@ onMounted(() => {
         </li>
       </ul>
     </div>
-    <details v-if="currentQuestion">
-      <summary>Question JSON</summary>
-      <pre class="question-json">
-             {{ JSON.stringify(currentQuestion, null, 2) }}
-            </pre
-      >
-    </details>
+ 
     <p v-if="quizState === 'not ready'">Loading questions...</p>
     <template v-if="quizState === 'complete'">
       <p>Complete! You scored {{ score }}/{{ questions.length }}</p>
       <button @click="resetQuiz">Play again</button>
     </template>
+    <div class="secondColour">
+      <br>
+      <h4><span style="color: #ffffff;">LINK UTILI:</span></h4>
+<p><a href="https://shop.lokal.farm/page/condizioni-vendita">Condizioni di vendita</a></p>
+<p><a href="https://shop.lokal.farm/page/privacy-policy">Privacy Policy</a></p>
+      <h4><span style="color: #ffffff;"> CONTATTI:</span></h4>
+          <p>sales@lokal.farm</p>
+          <p>info@lokal.farm</p>
+    </div>
     <footer>
       <a href="https://the-trivia-api.com">The Trivia API</a>
-      <a href="https://github.com/the-trivia-api/vue-starter">Github Repo</a>
+      <a href="https://github.com/the-trivia-api/vue-starter">Forked from this Github Repo</a>
     </footer>
   </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 body {
   color: rgba(0, 0, 0, 0.8);
   background-color: #fef9f2;
 }
+.elementor-nav-menu--toggle {
+  --menu-height: 100vh;
+}
 
+.secondColour{
+
+            background-color: rgb(180, 219, 143);
+            width:100%;
+            height:40vh;
+            border-top-left-radius: 10%;
+            border-top-right-radius: 10%;
+            color: white;
+            
+        
+}
 .intro-paragraph {
   max-width: 70ch;
   margin: auto;
@@ -149,10 +175,12 @@ body {
 
 .App {
   text-align: center;
+  color:rgb(123, 185, 47);
+  font-family: "Roboto", sans-serif;
 }
 
+
 .App-header {
-  background-color: #aed9e0;
   padding: 1rem;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -168,6 +196,11 @@ body {
 
 .answer-question__question {
   font-size: 1.5rem;
+  font-family:"Quicksand", sans-serif;
+  color: rgb(249, 152, 28);
+font-style: italic;
+font-weight: 500;
+line-height: 42px
 }
 
 .answer-question__answers {
@@ -210,12 +243,45 @@ body {
   background-color: #aed9e0;
 }
 
-.question-json {
-  text-align: left;
-  width: min-content;
-  margin: auto;
-}
 
+.navbar {
+ 
+  overflow: hidden;
+            
+            
+        }
+.navbar li {
+    list-style: none; 
+    margin: 0 20px;
+    flex: 1;
+    text-align: center;
+    float: right;
+   }
+.navbar a:hover::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: rgb(123, 185, 47);
+        }
+
+
+.navbar a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 0 20px;
+            position: relative;
+        }
+.logo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20%; /* Adjust this value to your desired width */
+            height: auto;
+        }
 footer {
   background-color: #aed9e0;
   position: fixed;
