@@ -4,11 +4,11 @@ import type { Question } from '@trivia-api/models'
 
 /**
  * Helper function to get questions from The Trivia API
- * @returns an array of questions
+ * @returns an array of questions relating to fruits
  */
  const getQuestions = async () => {
   const response = await fetch(
-    "https://the-trivia-api.com/api/questions?limit=10"
+    "https://the-trivia-api.com/v2/questions?tags=fruit"
   );
 
   const questions = await response.json();
