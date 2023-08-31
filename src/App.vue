@@ -2,6 +2,17 @@
 import { computed, onMounted, ref } from 'vue';
 import type { Question } from '@trivia-api/models'
 
+
+// const hamburgerButton= document.getElementById("hamburger");
+const navList = document.getElementById("nav");
+
+// // toggle hamburger menu
+// function toggleButton() {
+//     navList!.classList.toggle("show")
+// }
+
+// hamburgerButton!.addEventListener("click", toggleButton);
+
 /**
  * Helper function to get questions from The Trivia API
  * @returns an array of questions relating to fruits
@@ -27,7 +38,11 @@ const score = ref<number>(0)
 
 // derive the current question from the current index
 const currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
-const currentQuestionText= computed(()=>currentQuestion.value.question)
+const currentQuestionText= computed({get: () => currentQuestion.value.question,
+set: () => currentQuestion.value.question})
+
+//const currentQuestionText=currentQuestionTextData.value[0]
+
 //const currentQuestionText=computed(()=>currentQuestionTextData.value.)
 // derive the remaining number of questions from the current index and the total number of questions
 const remainingNumberOfQuestions = computed(() => questions.value.length - currentQuestionIndex.value)
@@ -46,7 +61,7 @@ const quizState = computed< "not ready" | "in progress" | "complete">(() => {
   }
 })
 
-/**
+/*
  * Called when the user guesses an answer to update the score and 
  * show the next question.
  * @param guess - The user's guess
@@ -77,16 +92,23 @@ onMounted(() => {
   getQuestions().then(res => questions.value = res)
 })
 
+function func(){
+  const totalScore=document.getElementById()
+}
+
 </script>
 
 <template>
   <div class="App">
 <div class="navbar">
-<ul ><li><a href="https://lokal.farm/unisciti-a-lokal-farm/">Unisciti a Lokal.farm</a></li>
+<ul id="nav"><li><a href="https://lokal.farm/unisciti-a-lokal-farm/">Unisciti a Lokal.farm</a></li>
 <li><a href="https://lokal.farm/frutta-verdura/prodotti-stagione/">Prodotti di Stagione</a></li>
 <li ><a href="https://lokal.farm/blog/">Blog</a></li>
 
 </ul> 
+<button class="hamburger" id="hamburger">
+                    <i class="fa fa-bars"></i>
+                </button>
 </div>
     <header class="App-header">LOKAL FARM TRIVIA</header>
 
@@ -102,7 +124,7 @@ onMounted(() => {
         </tr>
         <tr>
           <th>Current score</th>
-          <td>{{ score }}</td>
+          <td id="total scoe">{{ score }}</td>
         </tr>
         <tr>
           <th>Questions remaining</th>
@@ -126,6 +148,25 @@ onMounted(() => {
     <p v-if="quizState === 'not ready'">Loading questions...</p>
     <template v-if="quizState === 'complete'">
       <p>Complete! You scored {{ score }}/{{ questions.length }}</p>
+
+      <div id="centerDiv">
+      <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
+      <input type="hidden" name="_subject" value="Lokal Bot buono da spedire!"><br>
+     <input type="text" name="name" placeholder="name" required>
+     <br>
+     <input type="email" name="email" placeholder="email" required>
+     <br>
+     <input type="hidden" name="_captcha" value="false">
+     <br>
+     <textarea rows = "5" cols = "60" name = "message">
+            -Enter any additional comments here-
+     </textarea><br>
+     <br>
+     <input type="hidden" name="_next" value="https://lokal-trivia-app-test.onrender.com">
+     <button type="submit">Send</button>
+ 
+</form> 
+</div>
       <button @click="resetQuiz">Play again</button>
     </template>
     <div class="secondColour">
@@ -145,8 +186,11 @@ onMounted(() => {
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 body {
   color: rgba(0, 0, 0, 0.8);
   background-color: #fef9f2;
@@ -165,6 +209,17 @@ body {
             color: white;
             
         
+}
+
+#centerDiv{
+  line-height: 400px;
+  text-align:center; 
+  vertical-align:middle;
+}
+#frm{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px; 
 }
 .intro-paragraph {
   max-width: 70ch;
@@ -218,6 +273,7 @@ line-height: 42px
     grid-template-columns: 1fr;
   }
 }
+
 
 .answer-question__answers button {
   background-color: none;
