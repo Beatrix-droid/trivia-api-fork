@@ -35,7 +35,7 @@ const currentQuestionIndex = ref<number>(0)
 
 // track the user's current score
 const score = ref<number>(0)
-
+const scoreNum= Number(score);
 // derive the current question from the current index
 const currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
 const currentQuestionText= computed({get: () => currentQuestion.value.question,
@@ -92,9 +92,6 @@ onMounted(() => {
   getQuestions().then(res => questions.value = res)
 })
 
-function func(){
-  const totalScore=document.getElementById()
-}
 
 </script>
 
@@ -113,21 +110,21 @@ function func(){
     <header class="App-header">LOKAL FARM TRIVIA</header>
 
     <p class="intro-paragraph">
-       Get over 70% of the Fruit Trivia questions right to get a reward!
+      Ottieni almeno 80% delle risposte corrette per vincere un premio!
     </p>
     <img src="https://lokal.farm/wp-content/uploads/2022/02/cropped-lokal-farm-frutta-e-verdura-a-km-0.png" alt="logo" class="logo">
     <table class="score-table">
       <tbody>
         <tr>
-          <th>Total Questions</th>
+          <th>Totale Domande</th>
           <td>{{ questions.length }}</td>
         </tr>
         <tr>
-          <th>Current score</th>
+          <th>Il tuo punteggio fin'ora</th>
           <td id="total scoe">{{ score }}</td>
         </tr>
         <tr>
-          <th>Questions remaining</th>
+          <th>Domade rimanenti</th>
           <td>{{ remainingNumberOfQuestions }}</td>
         </tr>
       </tbody>
@@ -145,29 +142,37 @@ function func(){
       </ul>
     </div>
  
-    <p v-if="quizState === 'not ready'">Loading questions...</p>
+    <p v-if="quizState === 'not ready'">Caricamento quiz...</p>
     <template v-if="quizState === 'complete'">
-      <p>Complete! You scored {{ score }}/{{ questions.length }}</p>
-
+      <p>Quiz Completato! Hai ottenuto {{ score }}/{{ questions.length }} risposte giuste!</p>
+   
       <div id="centerDiv">
       <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
+        <p v-if="Number(score)<7">Mi spiace non hai vinto il coupon ma… (puoi sempre fare un primo ordine registrandoti sul sito ed avere uno sconto del 10% sul primo ordine) </p>
+      <p v-if="Number(score)>7 && Number(score)<9 ">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 20%</p>
+        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="un codice del 20%">
+      <p v-if="Number(score)>8 && Number(score)<10">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 30%</p>
+      <input  v-if="Number(score)>8" type="hidden" name="_autoresponse" value="un codice del 30%">
+
+      <p v-if="Number(score)>9">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 40%</p>
+      <input  v-if="Number(score)>9" type="hidden" name="_autoresponse" value="un codice del 40%">
+
       <input type="hidden" name="_subject" value="Lokal Bot buono da spedire!"><br>
      <input type="text" name="name" placeholder="name" required>
      <br>
      <input type="email" name="email" placeholder="email" required>
      <br>
-     <input type="hidden" name="_captcha" value="false">
      <br>
      <textarea rows = "5" cols = "60" name = "message">
-            -Enter any additional comments here-
+            -Commenti opzionali-
      </textarea><br>
      <br>
      <input type="hidden" name="_next" value="https://lokal-trivia-app-test.onrender.com">
-     <button type="submit">Send</button>
+     <button type="submit">Invia i tuoi dati</button>
  
 </form> 
 </div>
-      <button @click="resetQuiz">Play again</button>
+      <button @click="resetQuiz">Gioca di Nuovo</button>
     </template>
     <div class="secondColour">
       <br>
