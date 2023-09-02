@@ -167,7 +167,7 @@ onMounted(() => {
             -Commenti opzionali-
      </textarea><br>
      <br>
-     <input type="hidden" name="_next" value="https://lokal-trivia-app-test.onrender.com">
+     <input type="hidden" name="_next" value="https://lokal-trivia-app-test.onrender.com/grazie.html">
      <button type="submit">Invia i tuoi dati</button>
  
 </form> 
