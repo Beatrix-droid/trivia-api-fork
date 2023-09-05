@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue';
-import type { Question } from '@trivia-api/models'
+//import type { Question } from '@trivia-api/models'
+import type {Question} from './questionInterface'
 
 
 // const hamburgerButton= document.getElementById("hamburger");
@@ -38,8 +39,6 @@ const score = ref<number>(0)
 const scoreNum= Number(score);
 // derive the current question from the current index
 const currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
-const currentQuestionText= computed({get: () => currentQuestion.value.question,
-set: () => currentQuestion.value.question})
 
 //const currentQuestionText=currentQuestionTextData.value[0]
 
@@ -131,7 +130,7 @@ onMounted(() => {
     </table>
     <div v-if="currentQuestion" class="answer-question">
       <p class="answer-question__question">
-        {{ currentQuestionIndex + 1 }}: {{  currentQuestionText }}
+        {{ currentQuestionIndex + 1 }}: {{ currentQuestion.question.text}}
 
         <!--{{ currentQuestionIndex + 1 }}: {{ currentQuestion.question}}-->
       </p>
