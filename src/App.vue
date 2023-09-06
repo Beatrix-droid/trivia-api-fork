@@ -19,7 +19,7 @@ const navList = document.getElementById("nav");
  * @returns an array of questions relating to fruits
  */
  const getQuestions = async (): Promise<Question[]> => {
-  const filePath: string = './src/assets/questions/italianTranslation.json';
+  const filePath: string = './dist/assets/questions/italianTranslation.json';
 
   try {
     const response = await fetch(filePath);
