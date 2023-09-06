@@ -28,12 +28,28 @@ const navList = document.getElementById("nav");
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
+        //now select 10 random questions from the json:
+
     const data = await response.json();
+    // Step 2: Create an empty array to store selected elements
+    const selectedElements = [];
+    // Step 3: Generate 10 unique random indices
+    while (selectedElements.length < 10) {
+    const randomIndex = Math.floor(Math.random() * data.length);
+    
+    // Step 4: Check for uniqueness
+    if (selectedElements.indexOf(randomIndex) === -1) {
+      selectedElements.push(randomIndex);
+    }
+  }
+
+  // Step 5: Push the selected elements into a new array
+    const arrTenQuestions = selectedElements.map(index => data[index]);
 
     // You can use the 'data' variable in your application
     // For example, update your UI with the JSON data here
 
-    return data; // Return the parsed JSON data
+    return arrTenQuestions; // Return the parsed JSON data
   } catch (error) {
     console.error('Fetch error:', error);
     throw error; // Re-throw the error to propagate it
