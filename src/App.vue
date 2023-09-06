@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue';
-import type {Question} from './questionInterface'
-//import * as translator from '@parvineyvazov/json-translator';
+import type {Question} from './questionInterface';
+
 
 
 // const hamburgerButton= document.getElementById("hamburger");
@@ -18,14 +18,26 @@ const navList = document.getElementById("nav");
  * Helper function to get questions from The Trivia API
  * @returns an array of questions relating to fruits
  */
- const getQuestions = async () => {
-  const response = await fetch(
-    "https://the-trivia-api.com/v2/questions?tags=fruit"
-  );
+ const getQuestions = async (): Promise<Question[]> => {
+  const filePath: string = './src/questions/italianTranslation.json';
 
-  const questions = await response.json();
+  try {
+    const response = await fetch(filePath);
 
-  return questions;
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    // You can use the 'data' variable in your application
+    // For example, update your UI with the JSON data here
+
+    return data; // Return the parsed JSON data
+  } catch (error) {
+    console.error('Fetch error:', error);
+    throw error; // Re-throw the error to propagate it
+  }
 };
 
 // store all questions on the current quiz
@@ -79,8 +91,8 @@ const resetQuiz = () => {
   score.value = 0
   currentQuestionIndex.value = 0
 
-  getQuestions().then((res) => {
-    questions.value = res;
+  getQuestions().then((data) => {
+    console.log(data)
   });
 };
 
