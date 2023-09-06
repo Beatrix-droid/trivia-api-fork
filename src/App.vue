@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue';
-//import type { Question } from '@trivia-api/models'
 import type {Question} from './questionInterface'
+//import * as translator from '@parvineyvazov/json-translator';
 
 
 // const hamburgerButton= document.getElementById("hamburger");
@@ -38,11 +38,9 @@ const currentQuestionIndex = ref<number>(0)
 const score = ref<number>(0)
 const scoreNum= Number(score);
 // derive the current question from the current index
-const currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
+let currentQuestion = computed(() => questions.value[currentQuestionIndex.value])
 
-//const currentQuestionText=currentQuestionTextData.value[0]
 
-//const currentQuestionText=computed(()=>currentQuestionTextData.value.)
 // derive the remaining number of questions from the current index and the total number of questions
 const remainingNumberOfQuestions = computed(() => questions.value.length - currentQuestionIndex.value)
 
