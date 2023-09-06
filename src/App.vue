@@ -19,9 +19,8 @@ const navList = document.getElementById("nav");
  * @returns an array of questions relating to fruits
  */
  const getQuestions = async (): Promise<Question[]> => {
-  const filePath: string = './public/questions/italianTranslation.json';
+  const filePath: string = './questions/italianTranslation.json';
 
-  try {
     const response = await fetch(filePath);
 
     if (!response.ok) {
@@ -50,10 +49,7 @@ const navList = document.getElementById("nav");
     // For example, update your UI with the JSON data here
 
     return arrTenQuestions; // Return the parsed JSON data
-  } catch (error) {
-    console.error('Fetch error:', error);
-    throw error; // Re-throw the error to propagate it
-  }
+
 };
 
 // store all questions on the current quiz
