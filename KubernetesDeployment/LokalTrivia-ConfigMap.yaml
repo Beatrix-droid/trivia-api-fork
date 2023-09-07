@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: LokalTrivia-deployment
+  labels:
+    app: LokalTrivia
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: LokalTrivia
+  template:
+    metadata:
+      labels:
+        app: LokalTrivia
+    spec:
+      containers:
+      - name: LokalTrivia
+        image:  beatrix1997/lokaltrivia:1.00
+        ports:
+        - containerPort: 5173 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: LokalTrivia-service
+spec:
+  type: NodePort
+  selector:
+    app: LokalTrivia
+  ports:
+    - protocol: TCP
+      port: 5173 
+      targetPort: 5173 
+      nodePort: 30100
