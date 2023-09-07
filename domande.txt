@@ -2,21 +2,21 @@ totale domande: 57
 
 1:  Da cosa furono realizzate le prime Jack-o-Lantern? 
    risposta corretta: Rapa 
-   risposte sbagliate: ['svedese', 'Patata', 'Carota'] 
+   risposte sbagliate: ['zucche', 'Patata', 'Carota'] 
 
 2:  Che tipo di legumi vengono utilizzati nell'hummus? 
    risposta corretta: Ceci  
    risposte sbagliate: ['Lenticchie', 'Piselli gialli spezzati', 'Adzuki'] 
 
-3:  Quale verdura Braccio Di Ferro amava mangiare in lattina? 
+3:  Quale verdura amava mangiare in lattina  Braccio Di Ferro? 
    risposta corretta: Spinaci 
-   risposte sbagliate: ['cavolo', 'Broccoli', 'Cavolo'] 
+   risposte sbagliate: ['Fagioli', 'Broccoli', 'Cavolo'] 
 
 4:  A quale frutto è associato il Laetrile? 
    risposta corretta: Albicocca  
    risposte sbagliate: ['Lampone', 'Arancia', 'Banana'] 
 
-5:  Come è noto il fungo sotterraneo molto apprezzato in cucina? 
+5:  Come si chiama il fungo sotterraneo molto apprezzato in cucina? 
    risposta corretta: Tartufo  
    risposte sbagliate: ['Ovolo', 'Shitake', 'Trombetta dei morti'] 
 
@@ -28,7 +28,7 @@ totale domande: 57
    risposta corretta: Mela  
    risposte sbagliate: ['Mora', 'Fragola', 'Banana'] 
 
-8:  Quale piatto mediorientale è fatto con una purea di ceci speziati che vengono poi fritti? 
+8:  Quale piatto mediorientale è fatto con una purea di ceci speziati e poi viene fritto? 
    risposta corretta: Falafel 
    risposte sbagliate: ['hummus', 'Babàganoush', 'Tabbouleh'] 
 
@@ -64,15 +64,15 @@ totale domande: 57
    risposta corretta: Croco  
    risposte sbagliate: ['Papavero', 'Calantea', 'Rododendro'] 
 
-17:  Che nome viene dato a un piatto tedesco di cavolo fermentato tritato? 
+17:  Che nome viene dato a un piatto tedesco di cavolo fermentato e tritato? 
    risposta corretta: crauti  
-   risposte sbagliate: ['Currywurst', 'Pumpernickel', 'Cotoletta'] 
+   risposte sbagliate: ['Currywurst', 'Pumpernickel', 'kimchi'] 
 
 18:  Da quale parte del mondo sono originarie le prugne? 
    risposta corretta: Medio Oriente 
    risposte sbagliate: ['Europa', 'America Centrale', 'Africa'] 
 
-19:  Come si chiama uno spicchio d'aglio? 
+19:  Come si chiama in gergo tecnico uno spicchio d'aglio? 
    risposta corretta: bulbillo  
    risposte sbagliate: ['Bulbo', 'anima', 'testa'] 
 
@@ -126,7 +126,7 @@ totale domande: 57
 
 32:  Che tipo di verdura è tipicamente inclusa in una frittata di Denver, insieme a prosciutto e cipolle? 
    risposta corretta: Peperoni 
-   risposte sbagliate: ['Broccoli', 'Carota', 'Spinaci'] 
+   risposte sbagliate: ['Broccoli', 'Carote', 'Spinaci'] 
 
 33:  Quale di questi frutti non è un agrume? 
    risposta corretta: Banana 
@@ -145,7 +145,7 @@ totale domande: 57
    risposte sbagliate: ['Mango', 'Ciliegia', 'Banana'] 
 
 37:  Qual è il termine che si riferisce alla sostanza bianca tra la buccia e la polpa di un'arancia? 
-   risposta corretta: Il midollo 
+   risposta corretta: l'albedo 
    risposte sbagliate: ['La polpa', 'La pelle', 'La scorza'] 
 
 38:  Quale di questi frutti non contiene un nocciolo? 
