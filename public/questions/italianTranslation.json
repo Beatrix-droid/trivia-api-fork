@@ -3,7 +3,7 @@
   "id": "622a1c3d7cc59eab6f951c17",
   "correctAnswer": "Rapa",
   "incorrectAnswers": [
-    "svedese",
+    "zucche",
     "Patata",
     "Carota"
   ],
@@ -47,12 +47,12 @@
   "id": "645b9ebcf09106226db23571",
   "correctAnswer": "Spinaci",
   "incorrectAnswers": [
-    "cavolo",
+    "Fagioli",
     "Broccoli",
     "Cavolo"
   ],
   "question": {
-    "text": "Quale verdura Braccio Di Ferro amava mangiare in lattina?"
+    "text": "Quale verdura amava mangiare in lattina  Braccio Di Ferro?"
   },
   "tags": [
     "nutrizione",
@@ -99,7 +99,7 @@
     "Trombetta dei morti"
   ],
   "question": {
-    "text": "Come è noto il fungo sotterraneo molto apprezzato in cucina?"
+    "text": "Come si chiama il fungo sotterraneo molto apprezzato in cucina?"
   },
   "tags": [
     "cibo",
@@ -161,7 +161,7 @@
     "Tabbouleh"
   ],
   "question": {
-    "text": "Quale piatto mediorientale è fatto con una purea di ceci speziati che vengono poi fritti?"
+    "text": "Quale piatto mediorientale è fatto con una purea di ceci speziati e poi viene fritto?"
   },
   "tags": [
     "cibo",
@@ -354,10 +354,10 @@
   "incorrectAnswers": [
     "Currywurst",
     "Pumpernickel",
-    "Cotoletta"
+    "kimchi"
   ],
   "question": {
-    "text": "Che nome viene dato a un piatto tedesco di cavolo fermentato tritato?"
+    "text": "Che nome viene dato a un piatto tedesco di cavolo fermentato e tritato?"
   },
   "tags": [
     "Germania",
@@ -400,7 +400,7 @@
         "testa"
       ],
       "question": {
-        "text": "Come si chiama uno spicchio d'aglio?"
+        "text": "Come si chiama in gergo tecnico uno spicchio d'aglio?"
       },
       "tags": [
         "cibo",
@@ -693,7 +693,7 @@
       "correctAnswer": "Peperoni",
       "incorrectAnswers": [
         "Broccoli",
-        "Carota",
+        "Carote",
         "Spinaci"
       ],
       "question": {
