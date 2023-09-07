@@ -1,4 +1,541 @@
 [
+    
+    {
+        "category": "society_and_culture",
+        "id": "622a1c3d7cc59eab6f951c17",
+        "correctAnswer": "Turnip",
+        "incorrectAnswers": [
+            "Swede",
+            "Potato",
+            "Carrot"
+        ],
+        "question": {
+            "text": "From what were Jack-o-Lanterns first made?"
+        },
+        "tags": [
+            "food",
+            "halloween",
+            "traditions",
+            "society_and_culture"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950296",
+        "correctAnswer": "Chickpeas\u00a0",
+        "incorrectAnswers": [
+            "Lentils",
+            "Split Yellow Peas",
+            "Adzuki"
+        ],
+        "question": {
+            "text": "What type of pulses are used in humous?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    
+    {
+        "category": "food_and_drink",
+        "id": "645b9ebcf09106226db23571",
+        "correctAnswer": "Spinach",
+        "incorrectAnswers": [
+            "Kale",
+            "Broccoli",
+            "Cabbage"
+        ],
+        "question": {
+            "text": "Which vegetable did Popeye love to eat from a can?"
+        },
+        "tags": [
+            "nutrition",
+            "vegetables",
+            "food_and_drink",
+            "food",
+            "cartoons"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    
+    {
+        "category": "society_and_culture",
+        "id": "622a1c3d7cc59eab6f951c75",
+        "correctAnswer": "A Pickle",
+        "incorrectAnswers": [
+            "A Potato",
+            "An Onion",
+            "A Cherry"
+        ],
+        "question": {
+            "text": "A German tradition is to hide a certain food in a Christmas tree, and the first one to find it gets a special gift. What is the food they hide?"
+        },
+        "tags": [
+            "germany",
+            "christmas",
+            "traditions",
+            "food",
+            "society_and_culture"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502e5",
+        "correctAnswer": "Apricot\u00a0",
+        "incorrectAnswers": [
+            "Raspberry",
+            "Orange",
+            "Banana"
+        ],
+        "question": {
+            "text": "Laetrile is associated with the which fruit?"
+        },
+        "tags": [
+            "food",
+            "chemistry",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+
+    
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502dd",
+        "correctAnswer": "Truffle\u00a0",
+        "incorrectAnswers": [
+            "Ovolo",
+            "Shiitake",
+            "Trompette des morts"
+        ],
+        "question": {
+            "text": "The Subterranean Fungus Highly Prized In Cooking Is Known As What?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    
+   
+    {
+        "category": "food_and_drink",
+        "id": "624ab0db348a461bfc6706a0",
+        "correctAnswer": "China",
+        "incorrectAnswers": [
+            "Southeast Asia",
+            "India",
+            "Central Asia"
+        ],
+        "question": {
+            "text": "Where in the world are pears originally from?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950248",
+        "correctAnswer": "Apple\u00a0",
+        "incorrectAnswers": [
+            "Blackberry",
+            "Strawberry",
+            "Banana"
+        ],
+        "question": {
+            "text": "Which fruit is traditionally covered with toffee at a fairground?"
+        },
+        "tags": [
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+ 
+    {
+        "category": "food_and_drink",
+        "id": "645c9f8742ea81e2554c5f43",
+        "correctAnswer": "Falafel",
+        "incorrectAnswers": [
+            "Hummus",
+            "Baba ganoush",
+            "Tabbouleh"
+        ],
+        "question": {
+            "text": "What Middle Eastern dish is made of spiced, mashed chickpeas which are then deep fried?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "the_middle_east"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+   
+
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f95164a",
+        "correctAnswer": "Lettuce",
+        "incorrectAnswers": [
+            "Egg",
+            "Tomato",
+            "Bread"
+        ],
+        "question": {
+            "text": " Iceberg, Boston, and Bibb are types of what?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+   
+  
+    
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f95024d",
+        "correctAnswer": "Apple\u00a0",
+        "incorrectAnswers": [
+            "Orange",
+            "Peach",
+            "Apricot"
+        ],
+        "question": {
+            "text": "Which fruit has the scientific name of malus pumulia?"
+        },
+        "tags": [
+            "food",
+            "names",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+   
+
+  
+    {
+        "category": "food_and_drink",
+        "id": "62cde07a6f1416d08c914194",
+        "correctAnswer": "North America",
+        "incorrectAnswers": [
+            "Africa",
+            "Europe",
+            "Asia"
+        ],
+        "question": {
+            "text": "Chia seeds originated in which continent?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "geography"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+   
+  
+    {
+        "category": "food_and_drink",
+        "id": "646140784d46e537ca8cd9c8",
+        "correctAnswer": "Peanuts",
+        "incorrectAnswers": [
+            "Lentils",
+            "Black beans",
+            "Chickpeas"
+        ],
+        "question": {
+            "text": "Which of these is a major food allergen?"
+        },
+        "tags": [
+            "nutrition",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+   
+  
+    {
+        "category": "food_and_drink",
+        "id": "624ab075c64ce21c11f06e9d",
+        "correctAnswer": "South America",
+        "incorrectAnswers": [
+            "Africa",
+            "India",
+            "The Middle East"
+        ],
+        "question": {
+            "text": "From which part of the world do pineapples originate?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+  
+  
+   
+   
+  
+
+    {
+        "category": "food_and_drink",
+        "id": "624ab092348a461bfc670684",
+        "correctAnswer": "Europe",
+        "incorrectAnswers": [
+            "Central America",
+            "China",
+            "Central Asia"
+        ],
+        "question": {
+            "text": "Where in the world are parsnips originally from?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f9515b5",
+        "correctAnswer": "Pigs\u00a0",
+        "incorrectAnswers": [
+            "Sheep",
+            "Cows",
+            "Cats"
+        ],
+        "question": {
+            "text": "Which animal is used to sniff out truffles?"
+        },
+        "tags": [
+            "animals",
+            "food",
+            "general_knowledge",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+  
+   
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502ee",
+        "correctAnswer": "Crocus\u00a0",
+        "incorrectAnswers": [
+            "Poppy",
+            "Calanthea",
+            "Rhododendron"
+        ],
+        "question": {
+            "text": "From which flower does the expensive spice of Saffron come from?"
+        },
+        "tags": [
+            "food",
+            "plants",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f9515d2",
+        "correctAnswer": "Sauerkraut\u00a0",
+        "incorrectAnswers": [
+            "Currywurst",
+            "Pumpernickel",
+            "Schnitzel"
+        ],
+        "question": {
+            "text": "What name is given to a German dish of chopped fermented cabbage?"
+        },
+        "tags": [
+            "germany",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    
+ 
+ 
+
+    {
+        "category": "food_and_drink",
+        "id": "624ab07ac64ce21c11f06e9f",
+        "correctAnswer": "Central America",
+        "incorrectAnswers": [
+            "China",
+            "Central Asia",
+            "Europe"
+        ],
+        "question": {
+            "text": "Where in the world are bell peppers originally from?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f9515cc",
+        "correctAnswer": "Spain\u00a0",
+        "incorrectAnswers": [
+            "Italy",
+            "France",
+            "Russia"
+        ],
+        "question": {
+            "text": "From which country does the dish paella originate?"
+        },
+        "tags": [
+            "food",
+            "general_knowledge",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "64746b395a4c31088dd9d02f",
+        "correctAnswer": "Turkish delight",
+        "incorrectAnswers": [
+            "Baklava",
+            "Loukoumades",
+            "Halva"
+        ],
+        "question": {
+            "text": "What type of sweet consists of gelatinous cubes dusted with sugar, with rosewater, bergamot and lemon being common flavors?"
+        },
+        "tags": [
+            "food",
+            "candy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "646089cade964ebc39016c77",
+        "correctAnswer": "Cheese",
+        "incorrectAnswers": [
+            "Yogurt",
+            "Milk",
+            "Butter"
+        ],
+        "question": {
+            "text": "A ma\u00eetre fromager is an expert on what dairy product?"
+        },
+        "tags": [
+            "dairy",
+            "food",
+            "food_and_drink",
+            "occupations"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950229",
+        "correctAnswer": "Sushi",
+        "incorrectAnswers": [
+            "Dessert",
+            "Sandwich",
+            "Pizza"
+        ],
+        "question": {
+            "text": "Which type of restaurant popularized the use of conveyor belts?"
+        },
+        "tags": [
+            "food",
+            "general_knowledge",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
     {
         "category": "food_and_drink",
         "id": "645ba87ff09106226db2357e",
@@ -23,22 +560,753 @@
         "regions": [],
         "isNiche": false
     },
-   
     {
         "category": "food_and_drink",
-        "id": "64746b3e5a4c31088dd9d03d",
-        "correctAnswer": "Rice",
+        "id": "625006ba0d86c8f685d80ef8",
+        "correctAnswer": "Gomiti",
         "incorrectAnswers": [
-            "Bread",
-            "Apples",
-            "Potatoes"
+            "Rotelle",
+            "Bigoli",
+            "Campanelle"
         ],
         "question": {
-            "text": "What type of food has varieties such as Jasmine, Arborio, and Texmati?"
+            "text": "Which pasta's name means 'Elbows'?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6463394f01d576cfac3aa33c",
+        "correctAnswer": "Borscht",
+        "incorrectAnswers": [
+            "Stroganoff",
+            "Pelmeni",
+            "Blintz"
+        ],
+        "question": {
+            "text": "What is the name of the Russian beet soup usually served with sour cream?"
+        },
+        "tags": [
+            "soups",
+            "food",
+            "food_and_drink",
+            "russia",
+            "society_and_culture"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6250066b0d86c8f685d80ee8",
+        "correctAnswer": "Cannelloni",
+        "incorrectAnswers": [
+            "Garganelli",
+            "Bavette",
+            "Ziti"
+        ],
+        "question": {
+            "text": "Which pasta's name means 'Large reeds'?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c6176badf21197f98f77e",
+        "correctAnswer": "Pepperpot",
+        "incorrectAnswers": [
+            "Plov",
+            "Cou Cou and Flying Fish",
+            "Shawarma"
+        ],
+        "question": {
+            "text": "Which of these dishes would you most expect to find in Guyana?"
+        },
+        "tags": [
+            "food",
+            "south_america",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "647f9d043a4302a71927153a",
+        "correctAnswer": "Corned beef",
+        "incorrectAnswers": [
+            "Pastrami",
+            "Ham",
+            "Roast beef"
+        ],
+        "question": {
+            "text": "What type of deli meat is traditionally used in a New England boiled dinner?"
+        },
+        "tags": [
+            "cooking",
+            "cuisine",
+            "meat",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006980d86c8f685d80eee",
+        "correctAnswer": "Soup pasta",
+        "incorrectAnswers": [
+            "Ribbon pasta",
+            "Tubular pasta",
+            "Shaped pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is ditalini?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f9515c8",
+        "correctAnswer": "Potato dumplings",
+        "incorrectAnswers": [
+            "Raw beef",
+            "Pickled turnip",
+            "Carrot sauce"
+        ],
+        "question": {
+            "text": "What is gnocchi?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "society_and_culture",
+        "id": "626288864b176d54800e3da3",
+        "correctAnswer": "Snap! Crackle! Pop!",
+        "incorrectAnswers": [
+            "Eat Mor Chikin",
+            "A glass and a half in every half pound",
+            "Melts in your mouth, not in your hands."
+        ],
+        "question": {
+            "text": "What is the marketing slogan of Rice Krispies?"
+        },
+        "tags": [
+            "business",
+            "marketing",
+            "food",
+            "society_and_culture"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006f80d86c8f685d80f0a",
+        "correctAnswer": "Tubular pasta",
+        "incorrectAnswers": [
+            "Soup pasta",
+            "Stuffed pasta",
+            "Shaped pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is rigatoni?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "history",
+        "id": "639ae36d929b90846f2fc8d0",
+        "correctAnswer": "Maize",
+        "incorrectAnswers": [
+            "Rice",
+            "Wheat",
+            "Barley"
+        ],
+        "question": {
+            "text": "What type of food was the most important staple of the Aztec diet?"
+        },
+        "tags": [
+            "history",
+            "aztecs",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c60ca50d1a5e051325a73",
+        "correctAnswer": "Malaysia",
+        "incorrectAnswers": [
+            "Iran",
+            "Japan",
+            "Bhutan"
+        ],
+        "question": {
+            "text": "Nasi Lemak is a dish that is most associated with which part of the world?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f95162e",
+        "correctAnswer": "Spinach",
+        "incorrectAnswers": [
+            "Pork",
+            "Mushroom",
+            "Lemon"
+        ],
+        "question": {
+            "text": "A food labelled 'Florentine' is likely to contain which ingredient?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c607f50d1a5e051325a5f",
+        "correctAnswer": "The United Kingdom",
+        "incorrectAnswers": [
+            "Cuba",
+            "Indonesia",
+            "India"
+        ],
+        "question": {
+            "text": "Where in the world was Chicken Tikka Masala invented?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f95022c",
+        "correctAnswer": "Grapefruit & Tangerine\u00a0",
+        "incorrectAnswers": [
+            "Apple & Banana",
+            "Peach & Nectarine",
+            "Durian & Jackfruit"
+        ],
+        "question": {
+            "text": "Which two fruits are crossed to make an ugly fruit?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9503fa",
+        "correctAnswer": "Cake",
+        "incorrectAnswers": [
+            "Cured Meat",
+            "Cheese",
+            "Pickled Vegetables"
+        ],
+        "question": {
+            "text": "Traditional in Germany at Christmas, what sort of food is stollen?"
+        },
+        "tags": [
+            "germany",
+            "christmas",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006b00d86c8f685d80ef5",
+        "correctAnswer": "Tubular pasta",
+        "incorrectAnswers": [
+            "Ribbon pasta",
+            "Soup pasta",
+            "Stuffed pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is garganelli?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950256",
+        "correctAnswer": "Haddock\u00a0",
+        "incorrectAnswers": [
+            "Herring",
+            "Salmon",
+            "Tuna"
+        ],
+        "question": {
+            "text": "Which fish is smoked and cured and called 'finnan'?"
+        },
+        "tags": [
+            "fish",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c60e050d1a5e051325a79",
+        "correctAnswer": "Central America",
+        "incorrectAnswers": [
+            "Brunei",
+            "Chile",
+            "The Middle East"
+        ],
+        "question": {
+            "text": "Where in the world would you most expect to be served Gallo Pinto?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625007210d86c8f685d80f16",
+        "correctAnswer": "Strand pasta",
+        "incorrectAnswers": [
+            "Shaped pasta",
+            "Tubular pasta",
+            "Stuffed pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is vermicelli?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63a03953c7d86251f9b65c41",
+        "correctAnswer": "Gruyere",
+        "incorrectAnswers": [
+            "Feta",
+            "Cheddar",
+            "Mozzarella"
+        ],
+        "question": {
+            "text": "What type of cheese would you be most likely to add to the top of a classic French onion soup?"
+        },
+        "tags": [
+            "cheese",
+            "food_and_drink",
+            "food",
+            "soups"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63bc3fa70e893d6e5a6a0fd3",
+        "correctAnswer": "Canel\u00e9",
+        "incorrectAnswers": [
+            "Strudel",
+            "Kringle",
+            "Cannoli"
+        ],
+        "question": {
+            "text": "Which of these is a small French pastry flavored with rum and vanilla with a soft and tender custard center and a dark, thick caramelized crust?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "pastry",
+            "baking"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63a0394ec7d86251f9b65c3b",
+        "correctAnswer": "Ricotta",
+        "incorrectAnswers": [
+            "Feta",
+            "Gouda",
+            "Mozzarella"
+        ],
+        "question": {
+            "text": "What type of cheese would you be most likely to find in a cheesecake?"
+        },
+        "tags": [
+            "cheese",
+            "food_and_drink",
+            "food",
+            "desserts"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c60ee50d1a5e051325a7d",
+        "correctAnswer": "Poland",
+        "incorrectAnswers": [
+            "Belgium",
+            "Brunei",
+            "Japan"
+        ],
+        "question": {
+            "text": "Where in the world would you most expect to be served Bigos?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f95027c",
+        "correctAnswer": "Florida\u00a0",
+        "incorrectAnswers": [
+            "South America",
+            "France",
+            "Mexico"
+        ],
+        "question": {
+            "text": "Where Does Key Lime Pie Come From?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "648888605dba6c873ef65032",
+        "correctAnswer": "Huevos Rancheros",
+        "incorrectAnswers": [
+            "Enchiladas",
+            "Tacos",
+            "Burritos"
+        ],
+        "question": {
+            "text": "What famous Mexican dish consists of eggs served on tortillas and topped with salsa?"
+        },
+        "tags": [
+            "mexican_cuisine",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c605b50d1a5e051325a55",
+        "correctAnswer": "Belgium",
+        "incorrectAnswers": [
+            "Japan",
+            "Bahrain",
+            "Laos"
+        ],
+        "question": {
+            "text": "Moules-Frites is a dish that is most associated with which part of the world?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "64861cecf773f09dc0193b4a",
+        "correctAnswer": "Daikon",
+        "incorrectAnswers": [
+            "Bok Choy",
+            "Soba",
+            "Miso"
+        ],
+        "question": {
+            "text": "Which of these is a type of Japanese radish?"
+        },
+        "tags": [
+            "ingredients",
+            "food_and_drink",
+            "food",
+            "cuisine",
+            "japan",
+            "vegetables"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950222",
+        "correctAnswer": "Leek\u00a0",
+        "incorrectAnswers": [
+            "Carrot",
+            "Potato",
+            "Onion"
+        ],
+        "question": {
+            "text": "Which vegetable is also a Welsh emblem?"
+        },
+        "tags": [
+            "food",
+            "symbols",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "64824ee57778562fd76a96ac",
+        "correctAnswer": "Lobster",
+        "incorrectAnswers": [
+            "Crab",
+            "Shrimp",
+            "Clam"
+        ],
+        "question": {
+            "text": "Which type of seafood has varieties called Maine and spiny, and turns a vivid red only after it's been cooked?"
+        },
+        "tags": [
+            "seafood",
+            "food_and_drink",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c616fbadf21197f98f77c",
+        "correctAnswer": "Verivorst",
+        "incorrectAnswers": [
+            "Cou Cou and Flying Fish",
+            "Plov",
+            "Pad Thai"
+        ],
+        "question": {
+            "text": "Which of these dishes would you most expect to find in Estonia?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "society_and_culture",
+        "id": "626288324b176d54800e3d8f",
+        "correctAnswer": "Finger lickin' good",
+        "incorrectAnswers": [
+            "I'm loving it",
+            "Seafood Differently",
+            "This is not just food..."
+        ],
+        "question": {
+            "text": "Which marketing slogan would you associate with KFC?"
+        },
+        "tags": [
+            "business",
+            "marketing",
+            "food",
+            "society_and_culture"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "645bb13cf09106226db23593",
+        "correctAnswer": "Flower",
+        "incorrectAnswers": [
+            "Root",
+            "Leaf",
+            "Seed"
+        ],
+        "question": {
+            "text": "What part of the kudzu plant can be turned into a jelly?"
         },
         "tags": [
             "cuisine",
-            "ingredients",
+            "plants",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "64dd398a9cef2bd3a34add08",
+        "correctAnswer": "Roasted",
+        "incorrectAnswers": [
+            "Fried",
+            "Steamed",
+            "Boiled"
+        ],
+        "question": {
+            "text": "How is Peking duck prepared?"
+        },
+        "tags": [
+            "cooking",
+            "meat",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "64cfa1637f0714b9a0ca5e8d",
+        "correctAnswer": "Battered",
+        "incorrectAnswers": [
+            "Poached",
+            "Crumbled",
+            "Spatchcock"
+        ],
+        "question": {
+            "text": "What word is used when food is coated in a mixture of flour and eggs for frying?"
+        },
+        "tags": [
             "cooking",
             "food",
             "food_and_drink"
@@ -50,24 +1318,1267 @@
     },
     {
         "category": "food_and_drink",
-        "id": "645fcc73541c4d4fc8cf3063",
-        "correctAnswer": "Marjoram",
+        "id": "625006d90d86c8f685d80f01",
+        "correctAnswer": "Soup pasta",
         "incorrectAnswers": [
-            "Thyme",
-            "Basil",
-            "Mint"
+            "Stuffed pasta",
+            "Tubular pasta",
+            "Shaped pasta"
         ],
         "question": {
-            "text": "What herb is oregano most closely related to?"
+            "text": "What type of pasta is orzo?"
         },
         "tags": [
-            "cooking",
-            "herbs",
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c606250d1a5e051325a57",
+        "correctAnswer": "Canada",
+        "incorrectAnswers": [
+            "Vietnam",
+            "Ecuador",
+            "France"
+        ],
+        "question": {
+            "text": "Poutine is a dish that is most associated with which part of the world?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "649fcf8eebb41911d4cbd6e0",
+        "correctAnswer": "Jicama",
+        "incorrectAnswers": [
+            "Casava",
+            "Plantain",
+            "Tamarind"
+        ],
+        "question": {
+            "text": "Which vegetable is often known as a \"Mexican Turnip\"?"
+        },
+        "tags": [
+            "vegetables",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502a2",
+        "correctAnswer": "Tubular\u00a0",
+        "incorrectAnswers": [
+            "Anulus",
+            "Spiral",
+            "Shell"
+        ],
+        "question": {
+            "text": "What shape is macaroni?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6488deed50a27f7378a91de6",
+        "correctAnswer": "Queso",
+        "incorrectAnswers": [
+            "Salsa",
+            "Guacamole",
+            "Hummus"
+        ],
+        "question": {
+            "text": "Which of these is a type of Mexican cheese dip?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "mexican_cuisine",
+            "cuisine",
+            "cheese"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63a03958c7d86251f9b65c47",
+        "correctAnswer": "Mascarpone",
+        "incorrectAnswers": [
+            "Feta",
+            "Gouda",
+            "Mozzarella"
+        ],
+        "question": {
+            "text": "What type of cheese is used to make a Tiramisu?"
+        },
+        "tags": [
+            "cheese",
+            "food_and_drink",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f951627",
+        "correctAnswer": "Morocco\u00a0",
+        "incorrectAnswers": [
+            "Italy",
+            "France",
+            "Brazil"
+        ],
+        "question": {
+            "text": "A Tagine Is A Dish That Originated In Which Country?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c60ad50d1a5e051325a6c",
+        "correctAnswer": "Italy",
+        "incorrectAnswers": [
+            "Equatorial Guinea",
+            "Spain",
+            "Austria"
+        ],
+        "question": {
+            "text": "Where in the world would you most expect to be served Lasagna?"
+        },
+        "tags": [
+            "food",
+            "general_knowledge",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6250064f0d86c8f685d80ee1",
+        "correctAnswer": "Ribbon pasta",
+        "incorrectAnswers": [
+            "Strand pasta",
+            "Tubular pasta",
+            "Shaped pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is bavette?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "645cb1257d263fd50970439e",
+        "correctAnswer": "Champignon",
+        "incorrectAnswers": [
+            "Truffel",
+            "Oeuf",
+            "Baguette"
+        ],
+        "question": {
+            "text": "What is the French word for an edible mushroom?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "language"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63bc3fae0e893d6e5a6a0fdc",
+        "correctAnswer": "Linzer Torte",
+        "incorrectAnswers": [
+            "Strudel",
+            "Kringle",
+            "Cannoli"
+        ],
+        "question": {
+            "text": "Which of these is a shortbread topped with fruit preserves and sliced nuts with a lattice design on top?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "pastry",
+            "baking",
+            "desserts"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63a03951c7d86251f9b65c3e",
+        "correctAnswer": "Swiss",
+        "incorrectAnswers": [
+            "Gouda",
+            "Feta",
+            "Parmesan"
+        ],
+        "question": {
+            "text": "What type of cheese is used in a Reuben sandwich?"
+        },
+        "tags": [
+            "cheese",
+            "food_and_drink",
+            "food",
+            "sandwiches"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "62500680ea7a97fd2e356d2e",
+        "correctAnswer": "Cavatappi",
+        "incorrectAnswers": [
+            "Orecchiette",
+            "Penne",
+            "Ravioli"
+        ],
+        "question": {
+            "text": "Which pasta's name means 'Corkscrews'?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c605150d1a5e051325a52",
+        "correctAnswer": "Australia",
+        "incorrectAnswers": [
+            "Singapore",
+            "Uzbekistan",
+            "Russia"
+        ],
+        "question": {
+            "text": "Meat Pie is a dish that is most associated with which part of the world?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f9515b2",
+        "correctAnswer": "The Spanish imitation of an Aztec word\u00a0",
+        "incorrectAnswers": [
+            "A King of Mali",
+            "A town in Brazil",
+            "Cockney rhyming slang"
+        ],
+        "question": {
+            "text": "How did chocolate get its name?"
+        },
+        "tags": [
+            "words",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624ab0bf348a461bfc670695",
+        "correctAnswer": "The Middle East",
+        "incorrectAnswers": [
+            "South America",
+            "Central Asia",
+            "Southeast Asia"
+        ],
+        "question": {
+            "text": "Where in the world are radishes originally from?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006cb0d86c8f685d80efd",
+        "correctAnswer": "Tubular pasta",
+        "incorrectAnswers": [
+            "Ribbon pasta",
+            "Shaped pasta",
+            "Strand pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is macaroni?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f95163d",
+        "correctAnswer": "Little Worms",
+        "incorrectAnswers": [
+            "Tasty Pasta",
+            "Thick Hairs",
+            "Slippery Fingers"
+        ],
+        "question": {
+            "text": "What is the literal meaning of 'vermicelli'?"
+        },
+        "tags": [
+            "language",
+            "words",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950246",
+        "correctAnswer": "Avocado\u00a0",
+        "incorrectAnswers": [
+            "Cucumber",
+            "Tomato",
+            "Mango"
+        ],
+        "question": {
+            "text": "Which Is The Main Ingredient Of Guacamole?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6250071a0d86c8f685d80f14",
+        "correctAnswer": "Stuffed pasta",
+        "incorrectAnswers": [
+            "Soup pasta",
+            "Strand pasta",
+            "Tubular pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is tortellini?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "647f9d783a4302a7192715bc",
+        "correctAnswer": "Goulash",
+        "incorrectAnswers": [
+            "Stroganoff",
+            "Borscht",
+            "Sauerkraut"
+        ],
+        "question": {
+            "text": "What is the name of the Hungarian stew that contains meat and vegetables and is flavored with paprika?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "cuisine",
+            "hungary"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "648891824cd3f064f443dc0d",
+        "correctAnswer": "Ladyfingers",
+        "incorrectAnswers": [
+            "Madeleines",
+            "Savoiardi",
+            "Shortbread"
+        ],
+        "question": {
+            "text": "Which sponge cakes are used in the popular Italian dessert Tiramisu?"
+        },
+        "tags": [
+            "desserts",
+            "recipes",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c60d150d1a5e051325a75",
+        "correctAnswer": "Mexico",
+        "incorrectAnswers": [
+            "Bhutan",
+            "Japan",
+            "Brazil"
+        ],
+        "question": {
+            "text": "Where in the world would you most expect to be served a taco?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63a03947c7d86251f9b65c32",
+        "correctAnswer": "Cheese",
+        "incorrectAnswers": [
+            "Tomatoes",
+            "Beans",
+            "Chili"
+        ],
+        "question": {
+            "text": "What is the main ingredient in queso dip?"
+        },
+        "tags": [
+            "food_and_drink",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006b30d86c8f685d80ef6",
+        "correctAnswer": "Twins",
+        "incorrectAnswers": [
+            "Squid-like",
+            "Pens",
+            "Bibs"
+        ],
+        "question": {
+            "text": "The pasta gemelli has what meaning in Italian?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f950294",
+        "correctAnswer": "Pancakes\u00a0",
+        "incorrectAnswers": [
+            "Lamb",
+            "Fish",
+            "Coconut"
+        ],
+        "question": {
+            "text": "What Type Of Foodstuff Is Traditionally Eaten On Shrove Tuesday?"
+        },
+        "tags": [
+            "food",
+            "christianity",
+            "general_knowledge",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502d7",
+        "correctAnswer": "Burrito\u00a0",
+        "incorrectAnswers": [
+            "Taco",
+            "Fajita",
+            "Quesadilla"
+        ],
+        "question": {
+            "text": "Which Mexican Dish Translates Into English As Little Donkey?"
+        },
+        "tags": [
+            "food",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625007160d86c8f685d80f13",
+        "correctAnswer": "Small little pies",
+        "incorrectAnswers": [
+            "Little wheels",
+            "Large reeds",
+            "Bibs"
+        ],
+        "question": {
+            "text": "The pasta tortellini has what meaning in Italian?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624ab06dc64ce21c11f06e9a",
+        "correctAnswer": "Central America",
+        "incorrectAnswers": [
+            "Europe",
+            "The Middle East",
+            "South America"
+        ],
+        "question": {
+            "text": "From which part of the world does papaya originate?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6477bb1e550bc819ad646b79",
+        "correctAnswer": "The Rh\u00f4ne",
+        "incorrectAnswers": [
+            "The Seine",
+            "The Sa\u00f4ne",
+            "The Garonne"
+        ],
+        "question": {
+            "text": "The valley of which French river is known for producing large amounts of quality red wine?"
+        },
+        "tags": [
+            "wine",
+            "france",
+            "food_and_drink",
+            "food",
+            "rivers"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502b6",
+        "correctAnswer": "Whey",
+        "incorrectAnswers": [
+            "Creatine",
+            "Oodle",
+            "Lactil"
+        ],
+        "question": {
+            "text": "What is the name given to the watery part of milk left after making cheese?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "647f9da93a4302a7192715f1",
+        "correctAnswer": "A bagel",
+        "incorrectAnswers": [
+            "A croissant",
+            "A muffin",
+            "A doughnut"
+        ],
+        "question": {
+            "text": "What breakfast item takes its name from the Yiddish word for 'ring' or 'bracelet'?"
+        },
+        "tags": [
+            "breakfast",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63f39502989356ef48370be1",
+        "correctAnswer": "Apple",
+        "incorrectAnswers": [
+            "Mango",
+            "Papaya",
+            "Pineapple"
+        ],
+        "question": {
+            "text": "Which of these fruits is not a tropical fruit?"
+        },
+        "tags": [
+            "food_and_drink",
+            "food",
+            "fruit"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "arts_and_literature",
+        "id": "6463391401d576cfac3aa316",
+        "correctAnswer": "Curds & Whey",
+        "incorrectAnswers": [
+            "Bread & Butter",
+            "Neaps & Tatties",
+            "Apples & Pears"
+        ],
+        "question": {
+            "text": "In \"Little Miss Muffet\", what are the two foods being consumed by Miss Muffet when the spider frightens her?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "nursery_rhymes",
+            "society_and_culture",
+            "arts_and_literature"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c6168badf21197f98f77a",
+        "correctAnswer": "Ndol\u00e9",
+        "incorrectAnswers": [
+            "Ambuyat",
+            "Borscht",
+            "Plov"
+        ],
+        "question": {
+            "text": "Which of these dishes is most associated with Cameroon?"
+        },
+        "tags": [
+            "food",
+            "africa",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "646089e1de964ebc39016c95",
+        "correctAnswer": "Sukiyaki",
+        "incorrectAnswers": [
+            "Tempura",
+            "Yakitori",
+            "Sashimi"
+        ],
+        "question": {
+            "text": "Which of these Japanese dishes consists of stir-fried meat and vegetables?"
+        },
+        "tags": [
+            "food_and_drink",
+            "japan",
+            "cuisine",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c6136badf21197f98f76c",
+        "correctAnswer": "Switzerland",
+        "incorrectAnswers": [
+            "Vietnam",
+            "Barbados",
+            "Ghana"
+        ],
+        "question": {
+            "text": "R\u00f6sti is a dish that is most associated with which part of the world?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502ae",
+        "correctAnswer": "Al Dente\u00a0",
+        "incorrectAnswers": [
+            "Bitten",
+            "Forza",
+            "Allegri"
+        ],
+        "question": {
+            "text": "What Is The Term Used To Describe Pasta That Is Cooked Correctly?"
+        },
+        "tags": [
+            "italy",
+            "words",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c60dc50d1a5e051325a78",
+        "correctAnswer": "Stamppot",
+        "incorrectAnswers": [
+            "Ropa Vieja",
+            "Meat Pie",
+            "Ramen"
+        ],
+        "question": {
+            "text": "Which of these dishes is most associated with Netherlands?"
+        },
+        "tags": [
+            "food",
+            "the_netherlands",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006a50d86c8f685d80ef2",
+        "correctAnswer": "Ribbon pasta",
+        "incorrectAnswers": [
+            "Tubular pasta",
+            "Shaped pasta",
+            "Strand pasta"
+        ],
+        "question": {
+            "text": "What type of pasta is fettuccine?"
+        },
+        "tags": [
+            "food",
+            "italy",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "625006ea0d86c8f685d80f06",
+        "correctAnswer": "Radiator",
+        "incorrectAnswers": [
+            "Little ears",
+            "Rings",
+            "to cut"
+        ],
+        "question": {
+            "text": "The pasta radiatori has what meaning in Italian?"
+        },
+        "tags": [
+            "food",
+            "words",
+            "language",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6463391d01d576cfac3aa31c",
+        "correctAnswer": "Fudge",
+        "incorrectAnswers": [
+            "Toffee",
+            "Caramel",
+            "Marshmallow"
+        ],
+        "question": {
+            "text": "What is the name of the semisoft sweet good made from sugar, butter & cream?"
+        },
+        "tags": [
+            "desserts",
+            "candy",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "society_and_culture",
+        "id": "622a1c3c7cc59eab6f951889",
+        "correctAnswer": "Apples",
+        "incorrectAnswers": [
+            "Bananas",
+            "Cherries",
+            "Carrots"
+        ],
+        "question": {
+            "text": "What Would You Traditionally 'Bob' For At Halloween?"
+        },
+        "tags": [
+            "halloween",
+            "traditions",
+            "food",
+            "society_and_culture"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "63a03942c7d86251f9b65c2c",
+        "correctAnswer": "USA",
+        "incorrectAnswers": [
+            "France",
+            "Italy",
+            "Netherlands"
+        ],
+        "question": {
+            "text": "Which country produces the most cheese in the world?"
+        },
+        "tags": [
+            "cheese",
+            "food_and_drink",
+            "food",
+            "countries"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c608350d1a5e051325a60",
+        "correctAnswer": "Succotash",
+        "incorrectAnswers": [
+            "R\u00f6sti",
+            "Plov",
+            "Pad Thai"
+        ],
+        "question": {
+            "text": "Which of these dishes would you most expect to find in Equatorial Guinea?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c608650d1a5e051325a61",
+        "correctAnswer": "France",
+        "incorrectAnswers": [
+            "Austria",
+            "Benin",
+            "North Africa"
+        ],
+        "question": {
+            "text": "Cr\u00eapes are most associated with which part of the world?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3c7cc59eab6f951962",
+        "correctAnswer": "Panettone",
+        "incorrectAnswers": [
+            "Simnal",
+            "Victoria Sponge",
+            "Roulade"
+        ],
+        "question": {
+            "text": "What is the name of the cake traditionally eaten in Italy at Christmas?"
+        },
+        "tags": [
+            "italy",
+            "food",
+            "christmas",
+            "traditions",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f951543",
+        "correctAnswer": "Bakewell Tart",
+        "incorrectAnswers": [
+            "Eton Mess",
+            "Sticky Toffee Pudding",
+            "Tiramisu"
+        ],
+        "question": {
+            "text": "Which dessert is named after a town in Derbyshire, England?"
+        },
+        "tags": [
+            "food_and_drink",
+            "food",
+            "uk",
+            "desserts"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6477bad1550bc819ad646b23",
+        "correctAnswer": "Challah",
+        "incorrectAnswers": [
+            "Matzo",
+            "Bagel",
+            "Pita"
+        ],
+        "question": {
+            "text": "What is the name of the loaf of bread traditionally baked for the Jewish Sabbath?"
+        },
+        "tags": [
+            "bread",
+            "religion",
+            "judaism",
+            "society_and_culture",
             "food_and_drink",
             "food"
         ],
         "type": "text_choice",
         "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c357cc59eab6f94fe34",
+        "correctAnswer": "Legume",
+        "incorrectAnswers": [
+            "Maize",
+            "Seed",
+            "Fruit"
+        ],
+        "question": {
+            "text": "What is a peanut if it is not a pea or a nut?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "6463394f01d576cfac3aa340",
+        "correctAnswer": "Mushrooms",
+        "incorrectAnswers": [
+            "Tomatoes",
+            "Potatoes",
+            "Green beans"
+        ],
+        "question": {
+            "text": "Which food item is commonly grown on logs?"
+        },
+        "tags": [
+            "food_and_drink",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "645c9f5442ea81e2554c5f1a",
+        "correctAnswer": "Skewer",
+        "incorrectAnswers": [
+            "Spatula",
+            "Tongs",
+            "Basting brush"
+        ],
+        "question": {
+            "text": "What is the name of a long metal or wooden pin used to secure food during barbecuing?"
+        },
+        "tags": [
+            "food_and_drink",
+            "food",
+            "cooking",
+            "barbeque"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "647f9df73a4302a719271692",
+        "correctAnswer": "Minestrone",
+        "incorrectAnswers": [
+            "Linguine",
+            "Tiramisu",
+            "Pesto"
+        ],
+        "question": {
+            "text": "Which of these is a thick Italian vegetable soup?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink",
+            "soups"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "624c6164badf21197f98f779",
+        "correctAnswer": "Amok Trey",
+        "incorrectAnswers": [
+            "Shawarma",
+            "Dim Sum",
+            "Chicken Machboos"
+        ],
+        "question": {
+            "text": "Which of these dishes is most associated with Cambodia?"
+        },
+        "tags": [
+            "food",
+            "southeast_asia",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502b9",
+        "correctAnswer": "Egg Whites\u00a0",
+        "incorrectAnswers": [
+            "Butter",
+            "Bread",
+            "Flour"
+        ],
+        "question": {
+            "text": "What Is The Main Ingredient In Meringue?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c367cc59eab6f9502db",
+        "correctAnswer": "Asparagus\u00a0",
+        "incorrectAnswers": [
+            "Broccoli",
+            "Onions",
+            "Carrot"
+        ],
+        "question": {
+            "text": "Which of these is a perennial vegetable?"
+        },
+        "tags": [
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "622a1c3b7cc59eab6f951635",
+        "correctAnswer": "Bread",
+        "incorrectAnswers": [
+            "Cheese",
+            "Fruit",
+            "Nut"
+        ],
+        "question": {
+            "text": " What type of food is pitta?"
+        },
+        "tags": [
+            "food",
+            "general_knowledge",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "easy",
         "regions": [],
         "isNiche": false
     }
