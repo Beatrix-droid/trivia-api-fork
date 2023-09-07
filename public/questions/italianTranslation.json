@@ -1,5 +1,216 @@
 [
+  
     {
+      "category": "cibo e bevande",
+      "id": "645ba87ff09106226db2357e",
+      "correctAnswer": "Okara",
+      "incorrectAnswers": [
+        "Latte di soia",
+        "Zuppa di miso",
+        "Natto"
+      ],
+      "question": {
+        "text": "Qual è il nome del prodotto di scarto ottenuto dalla produzione del tofu?"
+      },
+      "tags": [
+        "cucina",
+        "cucinando",
+        "Giappone",
+        "cibo",
+        "cibo e bevande"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "difficile",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "64746b3e5a4c31088dd9d03d",
+      "correctAnswer": "Riso",
+      "incorrectAnswers": [
+        "Pane",
+        "Mele",
+        "Patate"
+      ],
+      "question": {
+        "text": "Che tipo di cibo ha varietà come Jasmine, Arborio e Texmati?"
+      },
+      "tags": [
+        "cucina",
+        "ingredienti",
+        "cucinando",
+        "cibo",
+        "cibo e bevande"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "medio",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "645fcc73541c4d4fc8cf3063",
+      "correctAnswer": "Maggiorana",
+      "incorrectAnswers": [
+        "Timo",
+        "Basilico",
+        "menta"
+      ],
+      "question": {
+        "text": "A quale erba è più strettamente imparentato l'origano?"
+      },
+      "tags": [
+        "cucinando",
+        "erbe aromatiche",
+        "cibo e bevande",
+        "cibo"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "difficile",
+      "regions": [],
+      "isNiche": false
+    },
+    
+    {
+      "category": "cibo e bevande",
+      "id": "648889135dba6c873ef650c0",
+      "correctAnswer": "Cipolle",
+      "incorrectAnswers": [
+        "Aglio",
+        "Carote",
+        "Broccoli"
+      ],
+      "question": {
+        "text": "Quale verdura è scientificamente chiamata Allium cepa?"
+      },
+      "tags": [
+        "cibo",
+        "cibo e bevande",
+        "verdure"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "difficile",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "645fcc89541c4d4fc8cf3088",
+      "correctAnswer": "Melanzana",
+      "incorrectAnswers": [
+        "Cetriolo",
+        "Avocado",
+        "Cavolfiore"
+      ],
+      "question": {
+        "text": "Quale verdura viene tradizionalmente utilizzata nella moussaka, un piatto greco al forno a base di agnello o manzo macinato?"
+      },
+      "tags": [
+        "cibo",
+        "cibo e bevande",
+        "verdure"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "medio",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "64861cecf773f09dc0193b4a",
+      "correctAnswer": "Daikon",
+      "incorrectAnswers": [
+        "Bok Choi",
+        "Soba",
+        "Miso"
+      ],
+      "question": {
+        "text": "Quale di questi è un tipo di ravanello giapponese?"
+      },
+      "tags": [
+        "ingredienti",
+        "cibo e bevande",
+        "cibo",
+        "cucina",
+        "Giappone",
+        "verdure"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "difficile",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "647f9ded3a4302a71927167a",
+      "correctAnswer": "Peperone",
+      "incorrectAnswers": [
+        "Pepe jalapeno",
+        "Peperoncino habanero",
+        "Pepe Serrano"
+      ],
+      "question": {
+        "text": "Quale peperone dolce prende il nome dalla sua forma ed è comunemente usato nelle insalate?"
+      },
+      "tags": [
+        "verdure",
+        "ingredienti",
+        "cibo",
+        "cibo e bevande"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "medio",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "649fcf8eebb41911d4cbd6e0",
+      "correctAnswer": "Jicama",
+      "incorrectAnswers": [
+        "Casava",
+        "Piantaggine",
+        "Tamarindo"
+      ],
+      "question": {
+        "text": "Quale verdura è spesso conosciuta come \"rapa messicana\"?"
+      },
+      "tags": [
+        "verdure",
+        "cibo",
+        "cibo e bevande"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "difficile",
+      "regions": [],
+      "isNiche": false
+    },
+    {
+      "category": "cibo e bevande",
+      "id": "6487897aa754bb6010f8b037",
+      "correctAnswer": "Peperoni",
+      "incorrectAnswers": [
+        "Broccoli",
+        "Carota",
+        "Spinaci"
+      ],
+      "question": {
+        "text": "Che tipo di verdura è tipicamente inclusa in una frittata di Denver, insieme a prosciutto e cipolle?"
+      },
+      "tags": [
+        "colazione",
+        "ingredienti",
+        "cibo",
+        "cibo e bevande",
+        "verdure"
+      ],
+      "type": "scelta_testo",
+      "difficulty": "medio",
+      "regions": [],
+      "isNiche": false
+    },
+  {
       "category": "cibo e bevande",
       "id": "63f394f6989356ef48370bc7",
       "correctAnswer": "Banana",

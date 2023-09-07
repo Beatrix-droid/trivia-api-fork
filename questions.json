@@ -1,0 +1,74 @@
+[
+    {
+        "category": "food_and_drink",
+        "id": "645ba87ff09106226db2357e",
+        "correctAnswer": "Okara",
+        "incorrectAnswers": [
+            "Soy milk",
+            "Miso Soup",
+            "Natt\u014d"
+        ],
+        "question": {
+            "text": "What is the name of the pulpy leftover when tofu is made from soybeans?"
+        },
+        "tags": [
+            "cuisine",
+            "cooking",
+            "japan",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    },
+   
+    {
+        "category": "food_and_drink",
+        "id": "64746b3e5a4c31088dd9d03d",
+        "correctAnswer": "Rice",
+        "incorrectAnswers": [
+            "Bread",
+            "Apples",
+            "Potatoes"
+        ],
+        "question": {
+            "text": "What type of food has varieties such as Jasmine, Arborio, and Texmati?"
+        },
+        "tags": [
+            "cuisine",
+            "ingredients",
+            "cooking",
+            "food",
+            "food_and_drink"
+        ],
+        "type": "text_choice",
+        "difficulty": "medium",
+        "regions": [],
+        "isNiche": false
+    },
+    {
+        "category": "food_and_drink",
+        "id": "645fcc73541c4d4fc8cf3063",
+        "correctAnswer": "Marjoram",
+        "incorrectAnswers": [
+            "Thyme",
+            "Basil",
+            "Mint"
+        ],
+        "question": {
+            "text": "What herb is oregano most closely related to?"
+        },
+        "tags": [
+            "cooking",
+            "herbs",
+            "food_and_drink",
+            "food"
+        ],
+        "type": "text_choice",
+        "difficulty": "hard",
+        "regions": [],
+        "isNiche": false
+    }
+]
