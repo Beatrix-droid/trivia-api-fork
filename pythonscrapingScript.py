@@ -37,9 +37,74 @@ from time import sleep
 #             textfile.write(f"   risposta corretta: {question['correctAnswer']} \n")
 #             textfile.write(f"   risposte sbagliate: {question['incorrectAnswers']} \n")
 
+
+
+Lokal_questions=[]
+
+question_blueprint={
+  "category": "società_e_cultura",
+  "id": "622a1c3d7cc59eab6f951c17",
+  "correctAnswer": "Rapa",
+  "incorrectAnswers": [
+    "zucche",
+    "Patata",
+    "Carota"
+  ],
+  "question": {
+    "text": "Da cosa furono realizzate le prime Jack-o-Lantern?"
+  },
+  "tags": [
+    "cibo",
+    "Halloween",
+    "tradizioni",
+    "società_e_cultura"
+  ],
+  "type": "scelta_testo",
+  "difficulty": "difficile",
+  "regions": [],
+  "isNiche": False
+}
 r=requests.get("https://server.opexams.com/quiz-data/EkUQ0vM8wX2", timeout=5)
 data=r.json()
-print(data)
+generated_questions=data["questions"]
+for question in generated_questions:
+    question.pop("id")
+    domanda=question["question"]
+    risposta_corretta=question["answer"]
+    options=question["options"]
+    wrong_answers=[option["value"] for option in options]
+    wrong_answers.remove(risposta_corretta)
+
+
+    # build the json object:
+    question_object={
+                      "category": "any string is fine",
+                      "id": "any string is fine",
+                      "correctAnswer": risposta_corretta,
+                      "incorrectAnswers": wrong_answers,
+                      "question": {
+                                    "text": domanda
+                                   },
+                      "tags": [
+                                "cibo",
+                                "whatever",
+                                "you ",
+                                "want"
+                                ],
+                      "type": "scelta_testo",
+                      "difficulty": "difficile",
+                      "regions": [],
+                      "isNiche": False
+                    }   
+    Lokal_questions.append(question_object)
+
+Lokal_questions_json=json.dumps(Lokal_questions, indent=4)
+with open("lokal-questions.json", "w") as file:
+    file.write(Lokal_questions_json)
+    
+  #  print(wrong_answers)
+#print(generated_questions)
+
 
 # with open("domande-Lokal.txt", "w") as textfile:
 #         textfile.write("totale domande: "+ str(len(data["questions"]))+ "\n")
