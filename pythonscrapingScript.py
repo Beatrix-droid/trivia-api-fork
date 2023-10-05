@@ -101,18 +101,3 @@ for question in generated_questions:
 Lokal_questions_json=json.dumps(Lokal_questions, indent=4)
 with open("lokal-questions.json", "w") as file:
     file.write(Lokal_questions_json)
-    
-  #  print(wrong_answers)
-#print(generated_questions)
-
-
-# with open("domande-Lokal.txt", "w") as textfile:
-#         textfile.write("totale domande: "+ str(len(data["questions"]))+ "\n")
-#         for question in data["questions"]:
-#             questionBody=question["question"]
-#             answer=question["answer"]
-#             wrong_answers=question["options"]["value"]
-#             textfile.write("\n")
-#             textfile.write(f"{data['questions'].index(question)+ 1}:  {questionBody} \n")
-#             textfile.write(f"   risposta corretta: {answer} \n")
-#             textfile.write(f"   risposte sbagliate: {wrong_answers} \n")

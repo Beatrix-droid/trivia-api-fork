@@ -1,229 +1,60 @@
-totale domande: 57
-
-1:  Da cosa furono realizzate le prime Jack-o-Lantern? 
-   risposta corretta: Rapa 
-   risposte sbagliate: ['zucche', 'Patata', 'Carota'] 
-
-2:  Che tipo di legumi vengono utilizzati nell'hummus? 
-   risposta corretta: Ceci  
-   risposte sbagliate: ['Lenticchie', 'Piselli gialli spezzati', 'Adzuki'] 
-
-3:  Quale verdura amava mangiare in lattina  Braccio Di Ferro? 
-   risposta corretta: Spinaci 
-   risposte sbagliate: ['Fagioli', 'Broccoli', 'Cavolo'] 
-
-4:  A quale frutto è associato il Laetrile? 
-   risposta corretta: Albicocca  
-   risposte sbagliate: ['Lampone', 'Arancia', 'Banana'] 
-
-5:  Come si chiama il fungo sotterraneo molto apprezzato in cucina? 
-   risposta corretta: Tartufo  
-   risposte sbagliate: ['Ovolo', 'Shitake', 'Trombetta dei morti'] 
-
-6:  Da quale parte del mondo sono originarie le pere? 
-   risposta corretta: Cina 
-   risposte sbagliate: ['Sud-est asiatico', 'India', 'Asia centrale'] 
-
-7:  Quale frutto viene tradizionalmente ricoperto di caramello in una fiera? 
-   risposta corretta: Mela  
-   risposte sbagliate: ['Mora', 'Fragola', 'Banana'] 
-
-8:  Quale piatto mediorientale è fatto con una purea di ceci speziati e poi viene fritto? 
-   risposta corretta: Falafel 
-   risposte sbagliate: ['hummus', 'Babàganoush', 'Tabbouleh'] 
-
-9:   Iceberg, Boston e Bibb sono tipi di cosa? 
-   risposta corretta: Lattuga 
-   risposte sbagliate: ['Uovo', 'Pomodoro', 'Pane'] 
-
-10:  Quale frutto ha il nome scientifico di malus pumulia? 
-   risposta corretta: Mela  
-   risposte sbagliate: ['Arancia', 'Pesca', 'Albicocca'] 
-
-11:  In quale continente sono originari dei semi di Chia? 
-   risposta corretta: Nord America 
-   risposte sbagliate: ['Africa', 'Europa', 'Asia'] 
-
-12:  Quale di questi è un importante allergene alimentare? 
-   risposta corretta: Arachidi 
-   risposte sbagliate: ['Lenticchie', 'Fagioli neri', 'Ceci'] 
-
-13:  Da quale parte del mondo è originario l'ananas? 
-   risposta corretta: Sud America 
-   risposte sbagliate: ['Africa', 'India', 'Medio Oriente'] 
-
-14:  Da quale parte del mondo sono originarie le pastinache? 
-   risposta corretta: Europa 
-   risposte sbagliate: ['America Centrale', 'Cina', 'Asia centrale'] 
-
-15:  Quale animale viene utilizzato per fiutare i tartufi? 
-   risposta corretta: Maiale  
-   risposte sbagliate: ['Pecora', 'Mucca', 'Gatto'] 
-
-16:  Da quale fiore proviene la costosa spezia dello Zafferano? 
-   risposta corretta: Croco  
-   risposte sbagliate: ['Papavero', 'Calantea', 'Rododendro'] 
-
-17:  Che nome viene dato a un piatto tedesco di cavolo fermentato e tritato? 
-   risposta corretta: crauti  
-   risposte sbagliate: ['Currywurst', 'Pumpernickel', 'kimchi'] 
-
-18:  Da quale parte del mondo sono originarie le prugne? 
-   risposta corretta: Medio Oriente 
-   risposte sbagliate: ['Europa', 'America Centrale', 'Africa'] 
-
-19:  Come si chiama in gergo tecnico uno spicchio d'aglio? 
-   risposta corretta: bulbillo  
-   risposte sbagliate: ['Bulbo', 'anima', 'testa'] 
-
-20:  Con quali cereali si prepara La Bandera, un piatto tradizionale della Repubblica Dominicana? 
-   risposta corretta: Riso 
-   risposte sbagliate: ['Quinoa', 'Grano bulgaro', 'Orzo'] 
-
-21:  Quale termine di cucina viene utilizzato per descrivere le verdure tagliate a listarelle molto sottili? 
-   risposta corretta: Julienne  
-   risposte sbagliate: ['rondelle', 'bastoncini', 'cubetti'] 
-
-22:  Da quale parte del mondo provengono i fichi? 
-   risposta corretta: Medio Oriente 
-   risposte sbagliate: ['India', 'America Centrale', 'Africa'] 
-
-23:  Quale di questi è un ortaggio perenne? 
-   risposta corretta: Asparago  
-   risposte sbagliate: ['Broccoli', 'Cipolle', 'Carota'] 
-
-24:  Qual è il nome del prodotto di scarto ottenuto dalla produzione del tofu? 
-   risposta corretta: Okara 
-   risposte sbagliate: ['Latte di soia', 'Zuppa di miso', 'Natto'] 
-
-25:  Che tipo di cibo ha varietà come Jasmine, Arborio e Texmati? 
-   risposta corretta: Riso 
-   risposte sbagliate: ['Pane', 'Mele', 'Patate'] 
-
-26:  A quale erba è più strettamente imparentato l'origano? 
-   risposta corretta: Maggiorana 
-   risposte sbagliate: ['Timo', 'Basilico', 'menta'] 
-
-27:  Quale verdura è scientificamente chiamata Allium cepa? 
-   risposta corretta: Cipolle 
-   risposte sbagliate: ['Aglio', 'Carote', 'Broccoli'] 
-
-28:  Quale verdura viene tradizionalmente utilizzata nella moussaka, un piatto greco al forno a base di agnello o manzo macinato? 
-   risposta corretta: Melanzana 
-   risposte sbagliate: ['Cetriolo', 'Avocado', 'Cavolfiore'] 
-
-29:  Quale di questi è un tipo di ravanello giapponese? 
-   risposta corretta: Daikon 
-   risposte sbagliate: ['Bok Choi', 'Soba', 'Miso'] 
-
-30:  Quale peperone dolce prende il nome dalla sua forma ed è comunemente usato nelle insalate? 
-   risposta corretta: Peperone 
-   risposte sbagliate: ['Pepe jalapeno', 'Peperoncino habanero', 'Pepe Serrano'] 
-
-31:  Quale verdura è spesso conosciuta come "rapa messicana"? 
-   risposta corretta: Jicama 
-   risposte sbagliate: ['Casava', 'Piantaggine', 'Tamarindo'] 
-
-32:  Che tipo di verdura è tipicamente inclusa in una frittata di Denver, insieme a prosciutto e cipolle? 
-   risposta corretta: Peperoni 
-   risposte sbagliate: ['Broccoli', 'Carote', 'Spinaci'] 
-
-33:  Quale di questi frutti non è un agrume? 
-   risposta corretta: Banana 
-   risposte sbagliate: ['Arancia', 'Limone', 'Pompelmo'] 
-
-34:  Quale di questi frutti è originario del Nord America? 
-   risposta corretta: Mirtillo 
-   risposte sbagliate: ['Mango', 'kiwi', 'Ananas'] 
-
-35:  Quale di questi frutti non è una drupa? 
-   risposta corretta: kiwi 
-   risposte sbagliate: ['Mango', 'Pesca', 'Prugna'] 
-
-36:  Quale di questi frutti appartiene alla famiglia degli agrumi? 
-   risposta corretta: Limone 
-   risposte sbagliate: ['Mango', 'Ciliegia', 'Banana'] 
-
-37:  Qual è il termine che si riferisce alla sostanza bianca tra la buccia e la polpa di un'arancia? 
-   risposta corretta: l'albedo 
-   risposte sbagliate: ['La polpa', 'La pelle', 'La scorza'] 
-
-38:  Quale di questi frutti non contiene un nocciolo? 
-   risposta corretta: Fragola 
-   risposte sbagliate: ['Nettarina', 'Pesca', 'Ciliegia'] 
-
-39:  Quale di questi frutti è una pomacee? 
-   risposta corretta: Mela 
-   risposte sbagliate: ['kiwi', 'Banana', 'Ciliegia'] 
-
-40:  Quale di questi frutti è originario dell'America Centrale? 
-   risposta corretta: Papaia 
-   risposte sbagliate: ['Mango', 'kiwi', 'Banana'] 
-
-41:  Qual è l'ingrediente principale della frutta in un'insalata Waldorf? 
-   risposta corretta: Mele 
-   risposte sbagliate: ['Arance', 'Uva', 'Ananas'] 
-
-42:  Quale di questi frutti non è una drupa? 
-   risposta corretta: Mela 
-   risposte sbagliate: ['Mango', 'Pesca', 'Prugna'] 
-
-43:  Da che tipo di albero provengono sia i datteri che le noci di cocco? 
-   risposta corretta: Palma 
-   risposte sbagliate: ['acero', 'betulla', 'Abete'] 
-
-44:  Quale di questi frutti è un frutto con nocciolo? 
-   risposta corretta: Pesca 
-   risposte sbagliate: ['Ananas', 'kiwi', 'Banana'] 
-
-45:  Quale di questi frutti è un agrume? 
-   risposta corretta: Arancia 
-   risposte sbagliate: ['Fragola', 'Mela', 'Mirtillo'] 
-
-46:  Quale di questi è un liquore al gusto di arancia? 
-   risposta corretta: Gran Marnier 
-   risposte sbagliate: ['Disaronno', 'Limoncello', 'Midori'] 
-
-47:  Qual è il nome comune dei frutti chiamati casaba, crenshaw e melata? 
-   risposta corretta: Meloni 
-   risposte sbagliate: ['Arance', 'Mele', 'Banane'] 
-
-48:  Quale di questi frutti non è un frutto tropicale? 
-   risposta corretta: Mela 
-   risposte sbagliate: ['Mango', 'Papaia', 'Ananas'] 
-
-49:  Quale di questi frutti è una drupa? 
-   risposta corretta: Noce di cocco 
-   risposte sbagliate: ['Uva', 'Frutto Stella', 'Mela'] 
-
-50:  Cos'è un 'Blenheim Orange'? 
-   risposta corretta: Un tipo di mela  
-   risposte sbagliate: ['Un tipo di pera', 'Un tipo di pesca', 'Un tipo di albicocca'] 
-
-51:  Quale di questi frutti è un tipo di melone? 
-   risposta corretta: Cantalupo 
-   risposte sbagliate: ['Mango', 'kiwi', 'Banana'] 
-
-52:  Quale di questi frutti non è un frutto tropicale? 
-   risposta corretta: Ciliegia 
-   risposte sbagliate: ['Mango', 'Papaia', 'Ananas'] 
-
-53:  Quale di questi frutti non è una pomacee? 
-   risposta corretta: Banana 
-   risposte sbagliate: ['Mela', 'Pera', 'Mela cotogna'] 
-
-54:  Quale di questi frutti non è un melone? 
-   risposta corretta: kiwi 
-   risposte sbagliate: ['Cantalupo', 'Melata', 'Anguria'] 
-
-55:  Quale frutto è disponibile nelle varietà Tokay e Emperor? 
-   risposta corretta: Uva 
-   risposte sbagliate: ['Mele', 'Arance', 'Banane'] 
-
-56:  Quale frutto toglie il medico di torno se ne mangi uno al giorno? 
-   risposta corretta: Mele 
-   risposte sbagliate: ['Banane', 'Ciliegie', 'Arance'] 
-
-57:  Come si chiamano le "banane da cucina" amidacee che possono essere saltate e servite come contorno? 
-   risposta corretta: Piantaggine 
-   risposte sbagliate: ['Casava', 'Guaiava', 'Durian'] 
+Quali sono i mesi migliori per la produzione di carciofi a km0 nel Lazio?
+A) Maggio-Giugno  
+B) Settembre-Ottobre ✔ 
+C) Marzo-Aprile  
+D) Gennaio-Febbraio  
+----------
+Qual è il principale beneficio dei prodotti di stagione a km0?
+A) Hanno meno pesticidi  
+B) Hanno più calorie  
+C) Sono economici  
+D) Sono più nutrienti ✔ 
+----------
+Quali sono i mesi migliori per la produzione di pomodori a km0 nel Lazio?
+A) Marzo-Aprile ✔ 
+B) Maggio-Giugno  
+C) Gennaio-Febbraio  
+D) Luglio-Agosto  
+----------
+Cosa significa "a km0" in relazione ai prodotti alimentari?
+A) Che la produzione è avvenuta nel territorio italiano  
+B) Che la produzione è avvenuta nelle vicinanze del luogo di vendita ✔ 
+C) Che la produzione è avvenuta in un raggio di 1 km dal luogo di vendita  
+D) Che la produzione è avvenuta nell'Unione Europea  
+----------
+Quali sono i mesi migliori per la produzione di zucchine a km0 nel Lazio?
+A) Marzo-Aprile  
+B) Maggio-Giugno ✔ 
+C) Gennaio-Febbraio  
+D) Luglio-Agosto  
+----------
+Quali sono i principali benefici dei prodotti di stagione a km0?
+A) Hanno meno additivi  
+B) Sono più belli  
+C) Sono più resistenti ai batteri  
+D) Sono più freschi ✔ 
+----------
+Quali sono i mesi migliori per la produzione di peperoni a km0 nel Lazio?
+A) Maggio-Giugno  
+B) Marzo-Aprile  
+C) Luglio-Agosto ✔ 
+D) Gennaio-Febbraio  
+----------
+Qual è il principale vantaggio dell'acquisto di prodotti a km0?
+A) Sono più esotici  
+B) Durano di più  
+C) Si incentiva l'economia locale ✔ 
+D) Non contengono pesticidi  
+----------
+Quali sono i mesi migliori per la produzione di melanzane a km0 nel Lazio?
+A) Maggio-Giugno  
+B) Settembre-Ottobre ✔ 
+C) Marzo-Aprile  
+D) Gennaio-Febbraio  
+----------
+Cosa significa "di stagione" in relazione ai prodotti alimentari?
+A) Che sono stati prodotti in un determinato luogo  
+B) Che sono prodotti solo una volta all'anno  
+C) Che sono prodotti solo in determinati mesi dell'anno ✔ 
+D) Che sono stati prodotti nell'ultimo anno  
+----------
