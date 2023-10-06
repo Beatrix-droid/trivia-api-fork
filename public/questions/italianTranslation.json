@@ -1266,5 +1266,189 @@
       "difficulty": "medio",
       "regions": [],
       "isNiche": false
-    }
+    },
+    {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Che sono prodotti solo in determinati mesi dell'anno   ",
+      "incorrectAnswers": [
+          " Che sono stati prodotti in un determinato luogo   ",
+          " Che sono prodotti solo una volta all'anno   ",
+          " Che sono stati prodotti nell'ultimo anno  "
+      ],
+      "question": {
+          "text": "Cosa significa \"di stagione\" in relazione ai prodotti alimentari? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Settembre-Ottobre   ",
+      "incorrectAnswers": [
+          " Maggio-Giugno   ",
+          " Marzo-Aprile   ",
+          " Gennaio-Febbraio  "
+      ],
+      "question": {
+          "text": "Quali sono i mesi migliori per la produzione di melanzane a km0 nel Lazio? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Si incentiva l'economia locale   ",
+      "incorrectAnswers": [
+          " Sono pi\u00f9 esotici   ",
+          " Durano di pi\u00f9   ",
+          " Non contengono pesticidi  "
+      ],
+      "question": {
+          "text": "Qual \u00e8 il principale vantaggio dell'acquisto di prodotti a km0? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Luglio-Agosto   ",
+      "incorrectAnswers": [
+          " Maggio-Giugno   ",
+          " Marzo-Aprile   ",
+          " Gennaio-Febbraio  "
+      ],
+      "question": {
+          "text": "Quali sono i mesi migliori per la produzione di peperoni a km0 nel Lazio? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Maggio-Giugno   ",
+      "incorrectAnswers": [
+          " Marzo-Aprile   ",
+          " Gennaio-Febbraio   ",
+          " Luglio-Agosto  "
+      ],
+      "question": {
+          "text": "Quali sono i mesi migliori per la produzione di zucchine a km0 nel Lazio? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Che la produzione \u00e8 avvenuta nelle vicinanze del luogo di vendita   ",
+      "incorrectAnswers": [
+          " Che la produzione \u00e8 avvenuta nel territorio italiano   ",
+          " Che la produzione \u00e8 avvenuta in un raggio di 1 km dal luogo di vendita   ",
+          " Che la produzione \u00e8 avvenuta nell'Unione Europea  "
+      ],
+      "question": {
+          "text": "Cosa significa \"a km0\" in relazione ai prodotti alimentari? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Marzo-Aprile   ",
+      "incorrectAnswers": [
+          " Maggio-Giugno   ",
+          " Gennaio-Febbraio   ",
+          " Luglio-Agosto  "
+      ],
+      "question": {
+          "text": "Quali sono i mesi migliori per la produzione di pomodori a km0 nel Lazio? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  },
+  {
+      "category": "society_and_culture",
+      "id": "622a1c3d7cc59eab6f951c17",
+      "correctAnswer": " Settembre-Ottobre   ",
+      "incorrectAnswers": [
+          " Maggio-Giugno   ",
+          " Marzo-Aprile   ",
+          " Gennaio-Febbraio  "
+      ],
+      "question": {
+          "text": "Quali sono i mesi migliori per la produzione di carciofi a km0 nel Lazio? "
+      },
+      "tags": [
+          "food",
+          "halloween",
+          "traditions",
+          "society_and_culture"
+      ],
+      "type": "text_choice",
+      "difficulty": "hard",
+      "regions": [],
+      "isNiche": false
+  }
   ]

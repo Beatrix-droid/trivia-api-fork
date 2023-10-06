@@ -2,7 +2,7 @@ import json
 
 
 
-list_of_questions=[]
+
 
 
 
@@ -13,7 +13,7 @@ with open ("txt docs/domande.txt", "r") as file:
     raw_question_list=questions.split("\n----------\n")
     question_list=[question.replace("\n"," ") for question in raw_question_list]
     
-
+    list_of_questions=[]
     for question in question_list[:-1]:
         #isolate the actual question
         question_parts=question.split("A)")
@@ -70,7 +70,12 @@ with open ("txt docs/domande.txt", "r") as file:
         
     list_of_questions.append(question_obj)
 
+print(question_list[:-1])
+# json_list_of_questions=json.dumps(list_of_questions, indent=4)
+with open("lokal-questions.json","r+") as outfile:
+        data=json.load(outfile)
+        data.append(list_of_questions[0])
+        outfile.seek(0)
+        json.dump(data, outfile, indent=4)
 
-json_list_of_questions=json.dumps(list_of_questions, indent=4)
-with open("lokal-questions.json","w") as outfile:
-    outfile.write(json_list_of_questions)
+
