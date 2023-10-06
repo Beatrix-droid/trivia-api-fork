@@ -170,13 +170,14 @@ onMounted(() => {
       <div id="centerDiv">
       <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
         <p v-if="Number(score)<7">Mi spiace non hai vinto il coupon ma… (puoi sempre fare un primo ordine registrandoti sul sito ed avere uno sconto del 10% sul primo ordine) </p>
+        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25 per ottenere un sconto del un codice del 10% sul tuo prossimo ordine!">
       <p v-if="Number(score)>7 && Number(score)<9 ">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 20%</p>
-        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="un codice del 20%">
+        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25 per ottenere un sconto del un codice del 20% sul tuo prossimo ordine!">
       <p v-if="Number(score)>8 && Number(score)<10">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 30%</p>
-      <input  v-if="Number(score)>8" type="hidden" name="_autoresponse" value="un codice del 30%">
+      <input  v-if="Number(score)>8" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25  per ottenere uno sconto del 30% sul tuo prossimo ordine!">
 
       <p v-if="Number(score)>9">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 40%</p>
-      <input  v-if="Number(score)>9" type="hidden" name="_autoresponse" value="un codice del 40%">
+      <input  v-if="Number(score)>9" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25 per ottenere un sconto del 40% sul tuo prossimo ordine!">
 
       <input type="hidden" name="_subject" value="Lokal Bot buono da spedire!"><br>
      <input type="text" name="name" placeholder="name" required>
@@ -188,7 +189,8 @@ onMounted(() => {
             -Commenti opzionali-
      </textarea><br>
      <br>
-     <input type="hidden" name="_next" value="https://lokal-trivia-app-test.onrender/grazie.html">
+     <input type="hidden" name="_url" value="https://lokal-trivia-app-test.onrender">
+     
      <button type="submit">Invia i tuoi dati</button>
  
 </form> 
