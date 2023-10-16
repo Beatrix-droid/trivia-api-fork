@@ -197,9 +197,6 @@ onMounted(() => {
     </template>
     <div class="secondColour">
       <br>
-      <h4><span style="color: #ffffff;">LINK UTILI:</span></h4>
-<p><a href="https://shop.lokal.farm/page/condizioni-vendita">Condizioni di vendita</a></p>
-<p><a href="https://shop.lokal.farm/page/privacy-policy">Privacy Policy</a></p>
       <h4><span style="color: #ffffff;"> CONTATTI:</span></h4>
           <p>sales@lokal.farm</p>
           <p>info@lokal.farm</p>
@@ -229,10 +226,12 @@ body {
 
             background-color: rgb(180, 219, 143);
             width:100%;
-            height:40vh;
+            height:23vh;
             border-top-left-radius: 10%;
             border-top-right-radius: 10%;
             color: white;
+            position: absolute;
+            bottom: 0px;
             
         
 }
@@ -293,6 +292,10 @@ line-height: 42px
   padding-left: 0;
 }
 
+.answer-question__answers ul {
+  border-radius: 12px;
+}
+
 /* So that on small screens the buttons aren't too small */
 @media only screen and (max-width: 600px) {
   .answer-question__answers {
@@ -311,19 +314,41 @@ line-height: 42px
 
 .answer-question__answers > :nth-child(1) button {
   background-color: #ffa69e;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .answer-question__answers > :nth-child(2) button {
   background-color: #faf3dd;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .answer-question__answers > :nth-child(3) button {
   background-color: #b8f2e6;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .answer-question__answers > :nth-child(4) button {
   background-color: #aed9e0;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+#hamburger {
+    display: none
+}
+
+    @media screen and (max-width:641px) {
+      #hamburger {
+        display: inherit;
+        float: right;
+        left: 0;
+        margin-right: 10px;
+      }
+    }
+
 
 
 .navbar {
@@ -332,6 +357,16 @@ line-height: 42px
             
             
         }
+
+@media screen and (max-width:641px) {
+
+  .navbar li {
+
+   display: none;
+
+  }
+}
+
 .navbar li {
     list-style: none; 
     margin: 0 20px;
@@ -364,6 +399,27 @@ line-height: 42px
             width: 20%; /* Adjust this value to your desired width */
             height: auto;
         }
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 footer {
   background-color: #aed9e0;
   position: fixed;
