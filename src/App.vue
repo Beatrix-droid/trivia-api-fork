@@ -184,17 +184,20 @@ onMounted(() => {
      <br>
      <input type="email" name="email" placeholder="email" required>
      <br>
-     <br>
-     <textarea rows = "5" cols = "60" name = "message">
-            -Commenti opzionali-
-     </textarea><br>
-     <br>
      <input type="hidden" name="_next" value="https://lokal-trivia-app.onrender.com/grazie.html">
+     <button type="submit">Invia i tuoi dati</button>
+     <br>
+     <br>
+     <button @click="resetQuiz">Gioca di Nuovo</button>
+     <br>
+     <br>
+     <br>
+     <br>
+     <input type="hidden" name="_next" value="https://lokal-trivia-app-test.onrender/grazie.html">
      <button type="submit">Invia i tuoi dati</button>
  
 </form> 
 </div>
-      <button @click="resetQuiz">Gioca di Nuovo</button>
     </template>
     <div class="secondColour">
       <br>
@@ -241,6 +244,7 @@ body {
   line-height: 400px;
   text-align:center; 
   vertical-align:middle;
+
 }
 #frm{
   display: inline-block;
@@ -415,12 +419,6 @@ input[type=email] {
   box-sizing: border-box;
 }
 
-textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
 footer {
   background-color: #aed9e0;
   position: fixed;
