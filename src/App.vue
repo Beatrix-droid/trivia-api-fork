@@ -168,8 +168,11 @@ onMounted(() => {
       <p>Quiz Completato! Hai ottenuto {{ score }}/{{ questions.length }} risposte giuste!</p>
    
       <div id="centerDiv">
-      <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
-        <p v-if="Number(score)<7">Mi spiace non hai vinto il coupon ma… (puoi sempre fare un primo ordine <a href="  https://lokal.farm/unisciti-a-lokal-farm/">registrandoti</a>sul sito ed avere uno sconto del 10% sul primo ordine):  </p>
+        <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
+        <p v-if="Number(score)<=7">Mi spiace non hai vinto il coupon ma… (puoi sempre fare un primo ordine registrandoti <a href="  https://lokal.farm/unisciti-a-lokal-farm/">sul sito</a> o inserendo i tuoi dettagli qui per ricevere uno sconto del 10% sul primo ordine):</p>
+        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25 per ottenere un sconto del 10% sul tuo prossimo ordine!">
+
+        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25 per ottenere un sconto del 20% sul tuo prossimo ordine!">
 
       <p v-if="Number(score)>7 && Number(score)<9 ">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 20%</p>
         <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice QUIZ25 per ottenere un sconto del 20% sul tuo prossimo ordine!">
@@ -194,7 +197,6 @@ onMounted(() => {
  
 </form> 
 </div>
-      <button @click="resetQuiz">Gioca di Nuovo</button>
     </template>
     <div class="secondColour">
       <br>
