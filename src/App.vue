@@ -128,7 +128,7 @@ onMounted(() => {
                     <i class="fa fa-bars"></i>
                 </button>
 </div>
-    <header class="App-header">LOKAL FARM TRIVIA</header>
+    <header class="App-header" id="main-header">LOKAL FARM TRIVIA</header>
 
     <p class="intro-paragraph">
       Ottieni almeno 80% delle risposte corrette per vincere un premio!
@@ -213,6 +213,8 @@ onMounted(() => {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto:wght@700&display=swap');
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
@@ -266,6 +268,11 @@ body {
   padding: 1rem;
   font-size: 2rem;
   margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+#main-header {
+  margin-top: 2em;
 }
 
 .score-table {
