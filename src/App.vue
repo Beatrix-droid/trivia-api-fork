@@ -166,7 +166,7 @@ onMounted(() => {
     <p v-if="quizState === 'not ready'">Caricamento quiz...</p>
     <template v-if="quizState === 'complete'">
       <p>Quiz Completato! Hai ottenuto {{ score }}/{{ questions.length }} risposte giuste!</p>
-   
+    
       <div id="centerDiv">
         <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
         <p v-if="Number(score)<=7">Mi spiace non hai vinto il coupon ma… (puoi sempre fare un primo ordine registrandoti <a href="  https://lokal.farm/unisciti-a-lokal-farm">sul sito</a> o inserendo i tuoi dettagli qui per ricevere uno sconto del 10% sul primo ordine):</p>
@@ -192,7 +192,7 @@ onMounted(() => {
             -Commenti opzionali-
      </textarea><br>
      <br>
-     <!---<input type="hidden" name="_next" value="https://lokal-trivia-app.onrender.com/grazie.html">----->
+     <input type="hidden" name="_next" value="https://lokal-trivia-app.onrender.com/grazie.html">
      <button type="submit">Invia i tuoi dati</button>
  
 </form> 
