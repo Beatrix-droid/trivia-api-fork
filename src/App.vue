@@ -187,13 +187,16 @@ onMounted(() => {
      <br>
      <input type="email" name="email" placeholder="email" required>
      <br>
-     <br>
-     <textarea rows = "5" cols = "60" name = "message">
-            -Commenti opzionali-
-     </textarea><br>
-     <br>
      <input type="hidden" name="_next" value="https://lokal-trivia-app.onrender.com/grazie.html">
      <button type="submit">Invia i tuoi dati</button>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
  
 </form> 
 </div>
@@ -201,7 +204,6 @@ onMounted(() => {
     <div class="secondColour">
       <br>
       <h4><span style="color: #ffffff;"> CONTATTI:</span></h4>
-          <p>sales@lokal.farm</p>
           <p>info@lokal.farm</p>
     </div>
     <footer>
@@ -231,7 +233,7 @@ body {
 
             background-color: rgb(180, 219, 143);
             width:100%;
-            height:23vh;
+            height:18vh;
             border-top-left-radius: 10%;
             border-top-right-radius: 10%;
             color: white;
@@ -269,11 +271,11 @@ body {
   padding: 1rem;
   font-size: 2rem;
   margin-bottom: 2rem;
-  font-weight: 700;
 }
 
 #main-header {
   margin-top: 2em;
+  font-weight: 700;
 }
 
 .score-table {
