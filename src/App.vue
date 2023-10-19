@@ -201,11 +201,6 @@ onMounted(() => {
 </form> 
 </div>
     </template>
-    <div class="secondColour">
-      <br>
-      <h4><span style="color: #ffffff;"> CONTATTI:</span></h4>
-          <p>info@lokal.farm</p>
-    </div>
     <footer>
       <a href="https://the-trivia-api.com">The Trivia API</a>
       <a href="https://github.com/the-trivia-api/vue-starter">Forked from this Github Repo</a>
