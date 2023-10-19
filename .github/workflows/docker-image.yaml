@@ -1,0 +1,22 @@
+name: build  & push image to docker
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:  # build the docker image
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USERNAME}}/lokaltrivia:latest
+    # push the image to docker
+    - name: log into docker
+      run: docker login -u ${{secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
+    - name: push image
+      run: docker push ${{secrets.DOCKER_USERNAME}}/lokaltrivia:latest
+    - name: log out of docker
+      run: docker logout
