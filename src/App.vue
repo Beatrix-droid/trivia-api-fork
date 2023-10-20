@@ -171,16 +171,16 @@ onMounted(() => {
         <form id="frm" action="https://formsubmit.co/da4833c2fc5e05cf2b842f3ba7964ce0" method="POST">
      
           <p v-if="Number(score)<=7">Mi spiace non hai vinto il coupon ma… (puoi sempre fare un primo ordine registrandoti <a href="  https://lokal.farm/unisciti-a-lokal-farm">sul sito</a> o inserendo i tuoi dettagli qui per ricevere uno sconto del 10% sul primo ordine):</p>
-        <input  v-if="Number(score)<=7" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE10 per ottenere un sconto del 10% sul tuo prossimo ordine!">
+        <input  v-if="Number(score)<=7" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE10 per ottenere un sconto del 10% sul tuo prossimo ordine! Il codice scade tra 60 giorni.">
 
       <p v-if="Number(score)>7 && Number(score)<9 ">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 20%</p>
-        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE20 per ottenere un sconto del 20% sul tuo prossimo ordine!">
+        <input  v-if="Number(score)>7" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE20 per ottenere un sconto del 20% sul tuo prossimo ordine! Il codice scade tra 60 giorni.">
      
         <p v-if="Number(score)>8 && Number(score)<10">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 30%</p>
-      <input  v-if="Number(score)>8 && Number(score)<10" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE30 per ottenere un sconto del 30% sul tuo prossimo ordine!">
+      <input  v-if="Number(score)>8 && Number(score)<10" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE30 per ottenere un sconto del 30% sul tuo prossimo ordine! Il codice scade tra 60 giorni.">
 
       <p v-if="Number(score)>9">Congratulazioni, hai vinto! Lascia la tua mail e ti invieremo uno coupon per uno sconto del: 40%</p>
-      <input  v-if="Number(score)>9" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE040 per ottenere un sconto del 40% sul tuo prossimo ordine! ">
+      <input  v-if="Number(score)>9" type="hidden" name="_autoresponse" value="Utilizza il codice MAKERFAIRE040 per ottenere un sconto del 40% sul tuo prossimo ordine! Il codice scade tra 60 giorni.">
 
       <input type="hidden" name="_subject" value="Lokal Bot buono da spedire!"><br>
      <input type="text" name="name" placeholder="name" required>
